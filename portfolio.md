@@ -14,8 +14,11 @@ redirect_from:
 html, body {
   min-height: 100%;
   background-color: white; /* For browsers that do not support gradients */
-  background-image: linear-gradient(lightgray, white, white, lightgray);
+  background-image: linear-gradient(#55646e, #c8c8c8 20%);
   /* background-image: url('https://cdn.polyhaven.com/asset_img/map_previews/concrete_wall_003/concrete_wall_003_ao_1k.jpg'); */
+}
+h1 {
+  color: black;
 }
 h2 {
   text-align: center;
