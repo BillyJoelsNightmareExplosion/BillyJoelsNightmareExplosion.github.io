@@ -6,6 +6,16 @@ layout: home
 permalink: /home/
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lVGSqY_PqnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<body style="background-color:aquamarine;">
+
+ <style>
+body {
+  background-image: ('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_images/800px-Truchet_blur.png');
+}
+
+
+</style> 
+
+<iframe width="640" height="362" src="https://www.youtube.com/embed/lVGSqY_PqnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Hello!
