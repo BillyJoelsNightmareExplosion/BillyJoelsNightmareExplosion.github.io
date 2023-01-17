@@ -2,7 +2,7 @@ entries:
   - title: Welcome!
     entries:
     - title: my portfolio
-      url: /my_work
+      url: /portfolio
     - title: my personal blog
       url: /blog
   - title: Contact or connect or whatever 
