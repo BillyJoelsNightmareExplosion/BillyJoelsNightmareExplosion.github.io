@@ -10,7 +10,7 @@ permalink: /home/
 
  <style>
 body {
-  background-image: ('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_images/800px-Truchet_blur.png');
+  background-image: url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_images/800px-Truchet_blur.png');
 }
 
 
