@@ -11,11 +11,11 @@ redirect_from:
 ---
 
 <style>
-body {
-  height: 100%;
-  background-color: gray; /* For browsers that do not support gradients */
-  background-image: linear-gradient(white, gray);
-  background-image: url('https://cdn.polyhaven.com/asset_img/map_previews/concrete_wall_003/concrete_wall_003_ao_1k.jpg');
+html, body {
+  min-height: 100%;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(lightgray, white, white, lightgray);
+  /* background-image: url('https://cdn.polyhaven.com/asset_img/map_previews/concrete_wall_003/concrete_wall_003_ao_1k.jpg'); */
 }
 h2 {
   text-align: center;
