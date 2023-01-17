@@ -11,8 +11,8 @@ redirect_from:
 
 <style>
 body {
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
+  height: 100%;
+  background-color: gray; /* For browsers that do not support gradients */
   background-image: linear-gradient(white, gray);
 }
 h2 {
