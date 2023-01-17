@@ -14,6 +14,6 @@ body {
 }
 </style> 
 
-<h2>click <a href="/my_work">here</a> if you're looking for my portfolio<h1>
+<h2>click <a href="/portfolio">here</a> if you're looking for my portfolio<h1>
 
-<h4>I recently changed platforms for this site, and I couldn't get the root page to not be a menu, so my portfolio is at <code>/my_work<code> <h4>
+<h4>I recently changed platforms for this site, and I couldn't get the root page to not be a menu, so my portfolio is at <code>/portfolio<code> <h4>
