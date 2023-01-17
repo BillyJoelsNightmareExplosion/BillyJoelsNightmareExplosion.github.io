@@ -21,12 +21,18 @@
 title: Alec Tremblay
 email: tremblayalec14@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Alec Tremblay's personal website
+  My personal website.
+  If you're here to evaluate my coding/tech art work and experience, take a look at my <a href="/portfolio">portfolio</a>.
+  Otherwise, I write stuff and film stuff and make music and food and like to clean
+  my room and I'm gonna try to put my stuff here so I can stand back and look at it
+  while no one visits so I can be content and alone. Come to think of it,
+  I can't stand back too far or else I'll have to make the text scaling larger.
+  It's probably for the best that I stay seated.
 baseurl: # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: riggraz/no-style-please 
+remote_theme:  BillyJoelsNightmareExplosion/some-style-please  
 plugins:
   - jekyll-feed
   - jekyll-redirect-from

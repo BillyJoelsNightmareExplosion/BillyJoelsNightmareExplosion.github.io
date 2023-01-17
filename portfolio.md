@@ -6,7 +6,7 @@ layout: page
 title: Alec Tremblay, Technical Artist
 permalink: /portfolio
 redirect_from:
-  - 
+  - /
 ---
 
 <style>
