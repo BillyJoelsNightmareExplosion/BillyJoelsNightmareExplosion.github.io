@@ -5,6 +5,7 @@
 layout: page
 title: Alec Tremblay, Technical Artist
 permalink: /portfolio
+categories: project
 redirect_from:
   - /
 ---
@@ -14,6 +15,7 @@ body {
   height: 100%;
   background-color: gray; /* For browsers that do not support gradients */
   background-image: linear-gradient(white, gray);
+  background-image: url('https://cdn.polyhaven.com/asset_img/map_previews/concrete_wall_003/concrete_wall_003_ao_1k.jpg');
 }
 h2 {
   text-align: center;

@@ -3,6 +3,8 @@ entries:
     entries:
     - title: my portfolio
       url: /portfolio
+    - title: my projects
+      url: /projects
     - title: my personal blog
       url: /blog
   - title: Contact or connect or whatever 
