@@ -51,6 +51,19 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 </style>
 
 
@@ -61,6 +74,7 @@ a:active {
 <a href="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/resume.pdf">resume</a>
 </div>
 
+<div class="videoWrapper">
 <iframe
 width="640"
 height="362"
@@ -68,7 +82,7 @@ src="https://www.youtube.com/embed/lVGSqY_PqnE"
 title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+</div>
 
 
 <h2>Hello!</h2>
