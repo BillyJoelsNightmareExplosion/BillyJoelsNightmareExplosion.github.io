@@ -1,8 +1,14 @@
 entries:
   - title: Welcome!
     entries:
-    - title: my 
-      url: https://billyjoelsnightmareexplosion.github.io/blog/
+    - title: my portfolio
+      url: /my_work
     - title: my personal blog
-      url: https://billyjoelsnightmareexplosion.github.io/blog/
-
+      url: /blog
+  - title: Contact or connect or whatever 
+    entries:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/alectremblay/"
+    - title: email
+      url: "mailto:tremblayalec14@gmail.com"
+    - title: (954)-850-6057
