@@ -5,7 +5,7 @@ which_category: personal
 permalink: /blog/
 ---
 
-Here's my blog. Nearly every guy in tech with an simple personal blog I find has a bunch of essays on there that are usually pretty good. Probably because they're all old or act old so they know how to say things now. This will probably not be that, as I am currently cherishing my youth.
+Here's my blog. Nearly every "seemingly minimally themed personal blog of tech person" I find has a bunch of essays on there that are usually pretty good. Probably because they're all old or act old so they know how to say things now. This will probably not be that, as I am currently cherishing my youth.
 
 <style>
 body {

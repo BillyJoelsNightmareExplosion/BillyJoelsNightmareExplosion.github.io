@@ -6,9 +6,7 @@ permalink: /projects/
 ---
 
 The stuff I've made. I'm unsure whether or not this should be just career-applicable stuff or
-just anything I make.
-
-lol I've made nothing.
+just anything I make. It'll probably just end up being everything.
 
 <style>
 body {
