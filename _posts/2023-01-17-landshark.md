@@ -22,7 +22,11 @@ categories: project
 }
 </style>
 
+### Why I made this:
 
+Basically, I love Half Life: Alyx. I thought the bottle shader they patched in a monthish after release was super cool and I still go back to that hotel lounge area sometimes just to hang out and look at bottles.
+
+Before I started my internship with Steamroller Technologies this past summer, I had moved into the place I rented for the summer a week before my start date, basically right after getting done with exams. I was really, super, super excited to get started, and had literally no idea exactly what I'd be working
 
 ### Breakdown:
 
