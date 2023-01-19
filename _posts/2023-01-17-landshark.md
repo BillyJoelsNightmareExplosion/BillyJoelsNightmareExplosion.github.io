@@ -7,13 +7,13 @@ categories: project
 ---
 
 <style>
-.bpEmbedWrapper {
+.EmbedWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
     overflow: hidden;
 }
-.bpEmbedWrapper iframe {
+.EmbedWrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,9 +22,10 @@ categories: project
 }
 </style>
 
- <video controls autoplay loop>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
+
+
+ <video width="100%" controls autoplay loop>
+  <source src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/good_take_loop.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
 
@@ -34,7 +35,12 @@ Basically, I love Half Life: Alyx. I thought the liquid-in-bottle shader they pa
 
 <img src="https://cdn.vox-cdn.com/thumbor/wOs1AdQcP0Rft3t5ppjruWPZn0s=/0x0:1322x910/1200x800/filters:focal(556x350:766x560)/cdn.vox-cdn.com/uploads/chorus_image/image/66862838/half_life_alyx_booze.0.jpg" alt="Half Life: Alyx's bottle shader in action">
 
-Before I started my internship with Steamroller Technologies this past summer, I had moved into the place I rented for the summer a week before my start date, basically right after getting done with exams. I was really, super, super excited to get started, and had literally no idea exactly what I'd be working
+Before I started my internship with Steamroller Technologies this past summer, I had moved into the place I rented for the summer a week before my start date, basically right after getting done with exams. I was really, super, super excited to get started and had absolutely no work to do. It was just me alone in a city I had only previously been to for like, an hour. 
+
+So, seeing as I was going to be spending the entire summer seated at a computer, in the interest of a healthy work-life balance, I decided to work nonstop on the computer all week building materials in unreal. 
+
+I had sorta just learned that tech art existed, and was really bad at but also really fascinated by materials (and feel similarly now about lower level shader and graphics programming stuff - I'll get there). So I decided to try and tackle what I thought would be a crazy complex project and emulate the coolest material I could think of.[^2]
+
 
 ### Breakdown:
 
@@ -42,13 +48,13 @@ For reference, I've included the graphs here as embeds from [blueprintue.com](bl
 
 **Blueprint**
 
-<div class="bpEmbedWrapper">
+<div class="EmbedWrapper">
 <iframe src="https://blueprintue.com/render/fy577lgl/" scrolling="no" allowfullscreen></iframe>
 </div>
 
  **Material**
 
-<div class="bpEmbedWrapper">
+<div class="EmbedWrapper">
 <iframe src="https://blueprintue.com/render/iznmevvd/" scrolling="no" allowfullscreen></iframe>
 </div>
 
@@ -90,4 +96,6 @@ show stencil buffer
 ---
 {: data-content="footnotes"}
 
-[^1]: there's also [this 2kilksphilip video](https://www.youtube.com/watch?v=8kQW2jFPYZo) that more accurately conveys how I felt playing the game, seeing these ridiculously cool bottles
+[^1]: There's also [this 2kilksphilip video](https://www.youtube.com/watch?v=8kQW2jFPYZo) that more accurately conveys how I felt playing the game, seeing these ridiculously cool bottles
+
+[^2]: [Here's what I had at the end of that week by the way](https://www.youtube.com/watch?v=0S25k2flpcw) - most of it is there, but also only the easy parts, and even those parts poorly implemented. Also the graph was a total mess then; I'm very glad I couldn't find any screenshots of it even just to make fun of myself, because I would've, and it would've been maximum painful.
