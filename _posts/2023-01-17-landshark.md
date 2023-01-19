@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /landshark
 title: how i made realtime "liquid" in a beer bottle in unreal
 date:   2023-01-17 20:55:28 -0500 # use ctrl+alt+t to insert time or go to command palette
 # the -0500 is the timezone offset for eastern time
@@ -39,12 +40,12 @@ Before I started my internship with Steamroller Technologies this past summer, I
 
 So, seeing as I was going to be spending the entire summer seated at a computer, in the interest of a healthy work-life balance, I decided to work nonstop on the computer all week building materials in unreal. 
 
-I had sorta just learned that tech art existed, and was really bad at but also really fascinated by materials (and feel similarly now about lower level shader and graphics programming stuff - I'll get there). So I decided to try and tackle what I thought would be a crazy complex project and emulate the coolest material I could think of.[^2]
+I had sorta just learned that tech art existed, and was really bad at but also really fascinated by materials (and feel similarly now about lower level shader and graphics programming stuff - I'll get there). So I decided to try and tackle what I thought would be a crazy complex project and emulate the coolest material I could think of, the liquid-in-a-bottle from Half Life: Alyx.[^2]
 
 
 ### Breakdown:
 
-For reference, I've included the graphs here as embeds from [blueprintue.com](blueprintue.com) where you can literally just copy and paste blueprints and materials and view them on the web. The only downside is that I used lots of named reroute nodes for the material to keep things tidy, and the names don't get transfered for whatever reason, so I've also included images of that graph.
+For reference, I've included the graphs here as embeds from [blueprintue.com](blueprintue.com), which is a super cool site where you can literally just copy and paste blueprints and materials and view and share them on the web. The only downside is that I used lots of named reroute nodes for the material to keep things tidy, and the names don't get transfered for whatever reason, so I've also included images of that graph.
 
 **Blueprint**
 
@@ -57,6 +58,8 @@ For reference, I've included the graphs here as embeds from [blueprintue.com](bl
 <div class="EmbedWrapper">
 <iframe src="https://blueprintue.com/render/iznmevvd/" scrolling="no" allowfullscreen></iframe>
 </div>
+
+[Here's a page with screenshots of the graph.](/landshark_mat_images)
 
 The Blueprint actor contains three meshes, and translucent outside mesh that’s shaded with the glass and beer, a not visible mesh that outputs a mask to a custom depth buffer to isolate the liquid top surface, an opaque masked inside mesh that shades the backsides of stickers (which is a separate mesh instead of a different material so it’s affected by the refraction in the translucent material). Both the outside and mask meshes have position and normal vectors set by the blueprint, and use that to mask the area above and below the liquid surface by subtracting the pixel position by the liquid surface position and taking the dot product with the liquid surface normal to get a black and white mask. The inside (flipped) mesh is assigned a custom depth stencil value, which the outside material uses to get a mask of just the liquid surface, and then uses those to shade each area separately.
 
