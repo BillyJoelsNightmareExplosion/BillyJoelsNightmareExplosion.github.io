@@ -22,9 +22,17 @@ categories: project
 }
 </style>
 
+ <video controls autoplay loop>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video> 
+
 ### Why I made this:
 
-Basically, I love Half Life: Alyx. I thought the bottle shader they patched in a monthish after release was super cool and I still go back to that hotel lounge area sometimes just to hang out and look at bottles.
+Basically, I love Half Life: Alyx. I thought the liquid-in-bottle shader they patched in a month-ish after release was super cool and I still go back to that hotel lounge area sometimes just to hang out and look at bottles. [Here, for the uninitiated](https://youtu.be/9XWxsJKpYYI?t=163)[^1]
+
+<img src="https://cdn.vox-cdn.com/thumbor/wOs1AdQcP0Rft3t5ppjruWPZn0s=/0x0:1322x910/1200x800/filters:focal(556x350:766x560)/cdn.vox-cdn.com/uploads/chorus_image/image/66862838/half_life_alyx_booze.0.jpg" alt="Half Life: Alyx's bottle shader in action">
 
 Before I started my internship with Steamroller Technologies this past summer, I had moved into the place I rented for the summer a week before my start date, basically right after getting done with exams. I was really, super, super excited to get started, and had literally no idea exactly what I'd be working
 
@@ -78,3 +86,8 @@ change viscosity
 change liquid color
 
 show stencil buffer
+
+---
+{: data-content="footnotes"}
+
+[^1]: there's also [this 2kilksphilip video](https://www.youtube.com/watch?v=8kQW2jFPYZo) that more accurately conveys how I felt playing the game, seeing these ridiculously cool bottles
