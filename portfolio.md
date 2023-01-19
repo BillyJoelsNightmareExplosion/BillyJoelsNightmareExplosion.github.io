@@ -89,9 +89,4 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-
-<h2>Hello!</h2>
-
-Welcome to my page!
-
-<h2>Realtime Beer</h2>
+## [Realtime Beer Breakdown](/landshark)
