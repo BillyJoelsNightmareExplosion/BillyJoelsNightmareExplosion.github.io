@@ -19,7 +19,7 @@ This graph takes the plane position and normal set by the blueprint each tick an
 
 ![Alt Text](https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/graphs/foam.png "foam.png")
 
-This graph 
+This graph outputs the color of the foam in the bottle using two different sets of UVs for shading the foam against the side of the bottle and the top surface of the liquid using a cool way to calculate the UVs for a surface described by an up-vector I found [here]()
 
 ---
 
