@@ -48,6 +48,8 @@ I had sorta just learned that tech art existed, and was really bad at but also r
 
 For reference, I've included the graphs here as embeds from [blueprintue.com](https://blueprintue.com/), which is a super cool site where you can literally just copy and paste blueprints and materials and view and share them on the web. The only downside is that I used lots of named reroute nodes for the material to keep things tidy, and the names don't get transfered for whatever reason, so I've also uploaded images of the graph [here](/landshark_mat_images).
 
+I'd recommend making them fullscreen so you can zoom normally.
+
 **Blueprint**
 
 <div class="EmbedWrapper">
@@ -70,7 +72,12 @@ These magnitude values are also used to interpolate between still and upset valu
 
 The non uniform liquid surface is calculated by taking the masks for the front and back faces of the bottle in their separate materials (both materials need to calculate a mask, only one needs to use it) using them to offset the output of three sine material functions I made that take the world X position of each pixel to calculate a Z value, offset by the mask, that creates a sine wave mask along the outer edge of the bottle to represent the surface of the liquid. The sine functions have “wave_height” attributes that are multiplied by the per-axis magnitudes added together to make the surface still when at rest, and upset when moved until the “liquid” settles. Since the two materials use the same authored values to create the look of the upset liquid, a material parameter collection referenced in the materials stores these values so they only need to be adjusted in one place.
 
+So, all together now, putting one of the bottle blueprints in a simple sequence where it's "shook" (rotated back and forth), with the blueprint sending the materials vectors, creating masks from this information, and then offsetting them with some sine wave functions, you get this:
 
+ <video width="100%" controls autoplay loop>
+  <source src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/masks.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 
 For the liquid, since colored refractions aren’t supported in Unreal, the scene color is multiplied by the beer color

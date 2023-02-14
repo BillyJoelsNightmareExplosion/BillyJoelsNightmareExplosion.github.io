@@ -86,7 +86,7 @@ height="362"
 src="https://www.youtube.com/embed/lVGSqY_PqnE"
 title="YouTube video player"
 frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## [Realtime Beer Breakdown](/landshark)
