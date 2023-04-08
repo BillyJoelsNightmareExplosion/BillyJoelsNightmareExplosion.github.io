@@ -13,8 +13,7 @@ Hello. This is the most recent pizza I've made and photographed. Please [contact
 <style> 
 #borderimg1 { 
   border: 100px solid transparent;
-  padding: 1vw;
-  border-image: url(https://www.w3schools.com/cssref/border.png) 30 round;
+  border-image: url(https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/border.png) 333 round;
 }
 img {
   width: 100%;
@@ -25,7 +24,7 @@ img {
 
 <p id="borderimg1">
 <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+    src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/pizza.jpg"
     alt="pizza">
 </p>
 
