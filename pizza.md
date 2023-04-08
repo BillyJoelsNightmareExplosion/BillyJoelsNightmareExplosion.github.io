@@ -12,7 +12,8 @@ Hello. This is the most recent pizza I've made and photographed. Please [contact
 
 <style> 
 #borderimg1 { 
-  border: 100px solid transparent;
+  border-style: solid;
+  border-width: 100px;
   border-image: url(https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/border.png) 333 round;
 }
 img {
