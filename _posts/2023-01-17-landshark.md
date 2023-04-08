@@ -82,30 +82,13 @@ So, all together now, putting one of the bottle blueprints in a simple sequence 
 
 For the liquid, since colored refractions aren’t supported in Unreal, the scene color is multiplied by the beer color
 
-The inside mesh has a material that masks the surface of the 
+TODO:
 
-Places where I failed:
-
-Water Droplets
-
-Particles:
-
-
-Shots in reel:
-
-Turntable shot of the bottle spinning in the center of the screen, side by side with reference
-
-blueprint controls slide over from the right on top of reference
-
-change fill level
-
-move and rotate around, show water surface changing
-
-change viscosity
-
-change liquid color
-
-show stencil buffer
+- show stencil buffer
+- Places where I failed
+  - Water Droplets
+  - Breaking
+- comments on liquid in games and conclusion of some sort
 
 ---
 {: data-content="footnotes"}

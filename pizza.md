@@ -21,19 +21,8 @@ img {
 }
 </style>
 
-
-
 <p id="borderimg1">
 <img
     src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/pizza.jpg"
     alt="pizza">
 </p>
-
-
-
-
-
-
-
-
-
