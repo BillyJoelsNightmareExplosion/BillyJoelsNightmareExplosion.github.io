@@ -7,6 +7,8 @@ entries:
       url: /projects
     - title: my personal blog
       url: /blog
+    - title: my pizza
+      url: /pizza
   - title: Contact or connect or whatever 
     entries:
     - title: linkedin
