@@ -1,1 +1,1 @@
-bundle exec jekyll serve
+cmd /k bundle exec jekyll serve

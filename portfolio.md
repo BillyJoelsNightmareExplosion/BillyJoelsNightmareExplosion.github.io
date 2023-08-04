@@ -3,58 +3,106 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Alec Tremblay, Technical Artist
 permalink: /portfolio
 categories: project
 redirect_from:
-  - /
+  - / 
 ---
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1 {
+  color: white;
+}
+.fa {
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 10px; 
+  color: black;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  transform: translate(0%, -10%);
+}
+
+.fa:hover {
+  opacity: 0.8;
+  border-style: ridge;
+  border-radius: 10px;
+  font-size: 22px;
+  color: lightblue;
+}
+
+.fa-linkedin {
+
+}
+
+.fa-resume {
+  width: 75px;
+  font-family: 'alte_haas_groteskbold', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+}
+
+</style>
+
+<!-- Add font awesome icons -->
+<h1>
+Alec Tremblay, Technical Artist
+<a href="https://www.linkedin.com/in/alectremblay/" class="fa fa-linkedin"></a>
+<a href="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/resume.pdf" class="fa fa-resume">resume</a>
+</h1>
 
 <style>
 html, body {
   min-height: 100%;
-  background-color: white; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#55646e, #c8c8c8 20%);
-  /* background-image: url('https://cdn.polyhaven.com/asset_img/map_previews/concrete_wall_003/concrete_wall_003_ao_1k.jpg'); */
+  color: white;
+  background-color: black; /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(#55646e, #c8c8c8 20%); */
+  background-image: url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png');
 }
 h1 {
-  color: black;
+  color: white;
+  padding: 20;
 }
 h2 {
   text-align: center;
 }
 .myLinks{
   text-align: justify;
-  color: black;
+  color: white;
 }
 .myLinks:after { /* Justify last line */
     content: '';
     display: inline-block;
-    width: 100%;
+    width: 100%; 
 }
 table {
   border: 1px solid transparent;
   width: 100%;
 }
 a:link {
-  color: black;
+  color: white;
   background-color: transparent;
-  text-decoration: underline;
 }
 a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: underline;
+  color: pink;
+  background-color: transparent; 
 }
-a:hover {
-  color: black;
+a:hover { 
+  opacity: 0.8;
   background-color: transparent;
-  text-decoration: underline;
+  color: lightblue;
 }
 a:active {
-  color: black;
+  color: white;
   background-color: transparent;
-  text-decoration: underline;
 }
 .videoWrapper {
     position: relative;
@@ -64,6 +112,9 @@ a:active {
 }
 .videoWrapper iframe {
     position: absolute;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -71,13 +122,7 @@ a:active {
 }
 </style>
 
-
-<div class="myLinks">
-<a href="mailto:tremblayalec14@gmail.com">email</a>
-<a href="https://www.linkedin.com/in/alectremblay/">linkedin</a>
-<a>(954)-850-6057</a>
-<a href="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/resume.pdf">resume</a>
-</div>
+Hello! Below you'll find my reel and some links to pages I've written on my work. If you're interested in my other stuff or my links, you can go to the [/home](/home) page.
 
 <div class="videoWrapper">
 <iframe
