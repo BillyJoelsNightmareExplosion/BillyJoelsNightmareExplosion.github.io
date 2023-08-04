@@ -88,7 +88,7 @@ table {
   width: 100%;
 }
 a:link {
-  color: white;
+  color: pink;
   background-color: transparent;
 }
 a:visited {
@@ -101,7 +101,7 @@ a:hover {
   color: lightblue;
 }
 a:active {
-  color: white;
+  color: pink;
   background-color: transparent;
 }
 .videoWrapper {
