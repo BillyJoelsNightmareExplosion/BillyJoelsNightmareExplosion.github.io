@@ -36,6 +36,8 @@ h1 {
   border-radius: 10px;
   font-size: 22px;
   color: lightblue;
+  border-color: lightblue;
+
 }
 
 .fa-linkedin {
