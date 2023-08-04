@@ -19,6 +19,7 @@ h1 {
   border-style: groove;
   border-width: 5px;
   border-radius: 10px;
+  border-color: pink;
   padding: 10px; 
   color: black;
   font-size: 20px;
@@ -129,6 +130,7 @@ Hello! Below you'll find my reel and some links to pages I've written on my work
 width="640"
 height="362"
 src="https://www.youtube.com/embed/lVGSqY_PqnE"
+color=white
 title="YouTube video player"
 frameborder="0"
 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
