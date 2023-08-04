@@ -22,7 +22,7 @@ h1 {
   border-color: pink;
   padding: 10px; 
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   width: 20px;
   text-align: center;
   text-decoration: none;
@@ -34,6 +34,7 @@ h1 {
   opacity: 0.8;
   border-style: ridge;
   border-radius: 10px;
+  padding: 8px; 
   font-size: 22px;
   color: lightblue;
   border-color: lightblue;
@@ -41,14 +42,14 @@ h1 {
 }
 
 .fa-linkedin {
-
+  font-size: 18px;
 }
 
 .fa-resume {
   width: 75px;
   font-family: 'alte_haas_groteskbold', sans-serif;
   font-size: 18px;
-  margin: 0;
+  margin: 2px 2px;
   min-height: 100%;
   overflow-wrap: break-word;
 }
