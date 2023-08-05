@@ -101,7 +101,6 @@ a:visited {
   background-color: transparent; 
 }
 a:hover { 
-  opacity: 0.8;
   background-color: transparent;
   color: lightblue;
 }
@@ -136,7 +135,7 @@ a:active {
 }
 .projectTile:hover {
     opacity: 1;
-    filter: grayscale(0%);
+    filter: sepia(0%)
 }
 .projectTileImage {
     position: absolute;
@@ -194,6 +193,14 @@ a.fill-div {
 <h1 class="projectTileLabel">DOOMED TALES (game jam)</h1>
 </a>
 </div>
+
+<div class="projectTile">
+<a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
+<img class="projectTileImage" src="https://i9.ytimg.com/vi_webp/QRKCdJUPjLg/maxresdefault.webp?v=64cdc444&sqp=COSGt6YG&rs=AOn4CLDmkuxeZtrzbM8WJ0_3mT4JhSjQQA" >
+<h1 class="projectTileLabel">a recreation of #70 with blender and unreal</h1>
+</a>
+</div>
+
 
 <div class="projectTile">
 <a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
