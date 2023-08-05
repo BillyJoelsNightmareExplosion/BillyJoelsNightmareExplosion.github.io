@@ -182,7 +182,7 @@ a.fill-div {
 
 
 <div class="projectTile">
-<a href="/landshark/" class="fill-div">
+<a href="/landshark" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
 <h1 class="projectTileLabel">realtime "liquid" in unreal</h1>
 </a>
