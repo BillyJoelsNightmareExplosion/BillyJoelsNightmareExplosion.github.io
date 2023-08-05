@@ -196,7 +196,7 @@ a.fill-div {
 
 <div class="projectTile">
 <a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
-<img class="projectTileImage" src="https://i9.ytimg.com/vi_webp/QRKCdJUPjLg/maxresdefault.webp?v=64cdc444&sqp=COSGt6YG&rs=AOn4CLDmkuxeZtrzbM8WJ0_3mT4JhSjQQA" >
+<img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/rx8.png" >
 <h1 class="projectTileLabel">a recreation of #70 with blender and unreal</h1>
 </a>
 </div>
@@ -225,7 +225,7 @@ a.fill-div {
 
 <div class="projectTile">
 <a href="https://youtu.be/Dn0MROC39oQ" class="fill-div">
-<img class="projectTileImage" src="https://i9.ytimg.com/vi_webp/Dn0MROC39oQ/maxresdefault.webp?v=5fcf0972&sqp=CIT0tqYG&rs=AOn4CLC-GQ5s8ttMFhKcuKz4SQdQYEopxg" >
+<img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/dancethumbnail.webp" >
 <h1 class="projectTileLabel">turn up the radio (performance art music video)</h1>
 </a>
 </div>
