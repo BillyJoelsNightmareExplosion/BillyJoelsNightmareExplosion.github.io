@@ -147,7 +147,7 @@ a:active {
 }
 </style>
 
-Hello! Below you'll find my reel and some links to pages I've written on my work. If you're interested in my other stuff or my links, you can go to the [/home](/home) page.
+Hello! Below you'll find my reel and links to some of my work that I've highlighted. If you're interested in contacting me or browsing the rest of this site, you can go to the [/home](/home) page.
 
 <div class="videoWrapper">
 <iframe
@@ -206,5 +206,19 @@ a.fill-div {
 <a href="https://alectrem.itch.io/who-killed-thelonious" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTcyOTY2Ny8xMDE4NTYwNC5wbmc=/794x1000/lWVxVr.png" >
 <h1 class="projectTileLabel">who killed thelonious (game jam)</h1>
+</a>
+</div>
+
+<div class="projectTile">
+<a href="https://vimeo.com/365898993" class="fill-div">
+<img class="projectTileImage" src="https://i.vimeocdn.com/video/821777457-77235e8e54841902a7bd9c625ac63b2e8fdbee8520fa7b4a40d77d219b3c3a3f-d?mw=1600&mh=844&q=70" >
+<h1 class="projectTileLabel">breakup melody (short film)</h1>
+</a>
+</div>
+
+<div class="projectTile">
+<a href="https://youtu.be/Dn0MROC39oQ" class="fill-div">
+<img class="projectTileImage" src="https://i9.ytimg.com/vi_webp/Dn0MROC39oQ/maxresdefault.webp?v=5fcf0972&sqp=CIT0tqYG&rs=AOn4CLC-GQ5s8ttMFhKcuKz4SQdQYEopxg" >
+<h1 class="projectTileLabel">turn up the radio (performance art music video)</h1>
 </a>
 </div>
