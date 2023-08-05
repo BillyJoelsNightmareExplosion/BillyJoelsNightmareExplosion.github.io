@@ -9,10 +9,9 @@ permalink: /home
 <body style="background-color:white;">
 
 <style>
-  html, body { height: 100%; min-height: 100%;}
-body {
+html, body {
   min-height: 100%;
   background-image: url('https://cdn.polyhaven.com/asset_img/map_previews/concrete_wall_003/concrete_wall_003_ao_1k.jpg');
-
+  background-attachment: fixed;
 }
 </style> 

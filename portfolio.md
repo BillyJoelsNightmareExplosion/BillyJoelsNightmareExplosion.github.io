@@ -70,6 +70,7 @@ html, body {
   background-color: black; /* For browsers that do not support gradients */
   /* background-image: linear-gradient(#55646e, #c8c8c8 20%); */
   background-image: url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png');
+  background-attachment: fixed;
 }
 h1 {
   color: white;
@@ -124,6 +125,26 @@ a:active {
     width: 100%;
     height: 100%;
 }
+.projectTile {
+    position: relative;
+    margin: 30px 0px;
+    display: block;
+    padding-bottom: 56%; /* 16:9 */
+    clip-path: inset(0% 0% 0% 0% round 10px);
+    opacity: 0.5;
+    filter: grayscale(100%) sepia(100%) brightness(100%) hue-rotate(-100deg);
+}
+.projectTile:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+.projectTileImage {
+    position: absolute;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
 </style>
 
 Hello! Below you'll find my reel and some links to pages I've written on my work. If you're interested in my other stuff or my links, you can go to the [/home](/home) page.
@@ -139,4 +160,51 @@ frameborder="0"
 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-## [Realtime Beer Breakdown](/landshark)
+<style>
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.projectTileLabel {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  font-size: 24px;
+  text-shadow: 2px 2px 8px #000000;
+  color: pink;
+}
+.projectTile:hover .projectTileLabel {
+  color: lightblue;
+}
+</style>
+
+
+<div class="projectTile">
+<a href="/landshark/" class="fill-div">
+<img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
+<h1 class="projectTileLabel">realtime "liquid" in unreal</h1>
+</a>
+</div>
+
+<div class="projectTile">
+<a href="https://alectrem.itch.io/doomed-tales" class="fill-div">
+<img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMjE3NTg0Mi8xMjg1Mzc4My5naWY=/794x1000/qWsqK%2F.gif" >
+<h1 class="projectTileLabel">DOOMED TALES (game jam)</h1>
+</a>
+</div>
+
+<div class="projectTile">
+<a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
+<img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTk4NzcyMi8xMTY4OTQ0MS5wbmc=/794x1000/wC%2BRqc.png" >
+<h1 class="projectTileLabel">Squirreling Away (game jam)</h1>
+</a>
+</div>
+
+<div class="projectTile">
+<a href="https://alectrem.itch.io/who-killed-thelonious" class="fill-div">
+<img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTcyOTY2Ny8xMDE4NTYwNC5wbmc=/794x1000/lWVxVr.png" >
+<h1 class="projectTileLabel">who killed thelonious (game jam)</h1>
+</a>
+</div>
