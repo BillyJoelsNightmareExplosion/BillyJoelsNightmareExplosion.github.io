@@ -71,6 +71,7 @@ html, body {
   /* background-image: linear-gradient(#55646e, #c8c8c8 20%); */
   background-image: url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png');
   background-attachment: fixed;
+  background-size: cover;
 }
 h1 {
   color: white;
