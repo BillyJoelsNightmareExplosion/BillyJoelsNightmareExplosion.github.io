@@ -174,8 +174,15 @@ a:active {
 }
 </style>
 
-Hello! Below you'll find my reel and links to some of my work that I've highlighted. If you're interested in contacting me or browsing the rest of this site, you can go to the [/home](/home) page.
+Hello! 
+
+Below you'll find my reel and links to some of my work that I've highlighted. If you're interested in contacting me or browsing the rest of this site, you can go to the [/home](/home) page.
+
+Thanks for stopping by!
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+---
+
 <div>
 
 <div class="pj">
