@@ -28,6 +28,7 @@ h1 {
   text-decoration: none;
   margin: 2px 2px;
   transform: translate(0%, -10%);
+  transition: opacity 0.2s, scale 0.2s;
 }
 
 .fa:hover {
@@ -35,20 +36,20 @@ h1 {
   border-style: ridge;
   border-radius: 10px;
   padding: 8px; 
-  font-size: 22px;
+  scale: 1.05;
   color: lightblue;
   border-color: lightblue;
 
 }
 
 .fa-linkedin {
-  font-size: 18px;
+
 }
 
 .fa-resume {
   width: 75px;
   font-family: 'alte_haas_groteskbold', sans-serif;
-  font-size: 18px;
+
   margin: 2px 2px;
   min-height: 100%;
   overflow-wrap: break-word;
@@ -67,11 +68,12 @@ Alec Tremblay, Technical Artist
 html, body {
   min-height: 100%;
   color: white;
-  background-color: black; /* For browsers that do not support gradients */
-  /* background-image: linear-gradient(#55646e, #c8c8c8 20%); */
-  background-image: url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png');
-  background-attachment: fixed;
-  background-size: cover;
+  /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(#55646e, #c8c8c8 20%);  url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png'), */
+  background-image: url('film-grain.gif'), url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png');
+  background-attachment: fixed, fixed;;
+  background-size: cover, cover;
+
 }
 h1 {
   color: white;
@@ -125,6 +127,9 @@ a:active {
     width: 100%;
     height: 100%;
 }
+.pj {
+    position: relative;
+}
 .projectTile {
     position: relative;
     margin: 30px 0px;
@@ -149,10 +154,19 @@ a:active {
     width: 100%;
     height: auto;
 }
+.projectTileFileGate {
+  position: absolute;
+  scale: 1.5 1.36;
+  left: 120px;
+  top: 40px;
+  overflow: visible;
+}
 </style>
 
 Hello! Below you'll find my reel and links to some of my work that I've highlighted. If you're interested in contacting me or browsing the rest of this site, you can go to the [/home](/home) page.
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="videoWrapper">
 <iframe
 width="640"
@@ -162,6 +176,7 @@ color=white
 title="YouTube video player"
 frameborder="0"
 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </div>
 
 <style>
@@ -192,22 +207,28 @@ a.fill-div {
   text-shadow: 2px 2px 8px #000000;
   color: pink;
   padding-left: 24px;
+  pointer-events: none;
 }
 .projectTile:hover .fa-external-link-square {
   color: lightblue;
   border-style: none;
+  opacity: 0.8;
 }
 </style>
 
-
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="/landshark" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
 <h1 class="projectTileLabel">realtime "liquid" in unreal</h1>
-<i class="fa fa-external-link-square"></i>
+<i class="fa fa-external-link-square disabled"></i>
 </a>
 </div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="https://alectrem.itch.io/doomed-tales" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMjE3NTg0Mi8xMjg1Mzc4My5naWY=/794x1000/qWsqK%2F.gif" >
@@ -215,7 +236,10 @@ a.fill-div {
 <i class="fa fa-external-link-square"></i>
 </a>
 </div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/rx8.png" >
@@ -223,8 +247,21 @@ a.fill-div {
 <i class="fa fa-external-link-square"></i>
 </a>
 </div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
+<div class="projectTile">
+<a href="/project/2023/01/17/website.html" class="fill-div">
+<iframe class="projectTileImage" src="/project/2023/01/17/website.html" style="border:none;height:1000px;scrollbar-width:none;pointer-events:unset!important;" ></iframe>
+<h1 class="projectTileLabel">this website</h1>
+<i class="fa fa-external-link-square"></i>
+</a>
+</div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTk4NzcyMi8xMTY4OTQ0MS5wbmc=/794x1000/wC%2BRqc.png" >
@@ -232,7 +269,10 @@ a.fill-div {
 <i class="fa fa-external-link-square"></i>
 </a>
 </div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="https://alectrem.itch.io/who-killed-thelonious" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTcyOTY2Ny8xMDE4NTYwNC5wbmc=/794x1000/lWVxVr.png" >
@@ -240,7 +280,10 @@ a.fill-div {
 <i class="fa fa-external-link-square"></i>
 </a>
 </div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="https://vimeo.com/365898993" class="fill-div">
 <img class="projectTileImage" src="https://i.vimeocdn.com/video/821777457-77235e8e54841902a7bd9c625ac63b2e8fdbee8520fa7b4a40d77d219b3c3a3f-d?mw=1600&mh=844&q=70" >
@@ -248,11 +291,15 @@ a.fill-div {
 <i class="fa fa-external-link-square"></i>
 </a>
 </div>
+</div>
 
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" >
 <div class="projectTile">
 <a href="https://youtu.be/Dn0MROC39oQ" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/dancethumbnail.webp" >
 <h1 class="projectTileLabel">turn up the radio (performance art music video)</h1>
 <i class="fa fa-external-link-square"></i>
 </a>
+</div>
 </div>
