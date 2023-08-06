@@ -166,8 +166,20 @@ a:active {
   filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-100deg);
   transition: opacity 0.2s;
 }
+.projectTileFilmText {
+  font-family: "spotted_rail_ticketregular";
+  color: #e6e6e6;
+  filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-90deg);
+  scale: 230%;
+  position:absolute;
+  transform: translate(335px,60px);
+  writing-mode: vertical-rl;
+  text-align: left;
+  text-wrap: nowrap;
+}
 @media screen and (max-width: 1092px) {
   .projectTileFileGate {opacity: 0;}
+  .projectTileFilmText {opacity: 0;}
 }
 @media screen and (max-width: 640px) {
   .projectTile {filter: none; opacity: 1;}
@@ -187,6 +199,7 @@ Thanks for stopping by!
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText">KODAK</h1>
 <div class="videoWrapper">
 <iframe
 width="640"
@@ -238,6 +251,7 @@ a.fill-div {
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText">TRI-X</h1>
 <div class="projectTile">
 <a href="/landshark" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
@@ -249,6 +263,7 @@ a.fill-div {
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText"> EI 160/23*</h1>
 <div class="projectTile">
 <a href="https://alectrem.itch.io/doomed-tales" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMjE3NTg0Mi8xMjg1Mzc4My5naWY=/794x1000/qWsqK%2F.gif" >
@@ -260,6 +275,7 @@ a.fill-div {
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText">TUNGSTEN</h1>
 <div class="projectTile">
 <a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/rx8.png" >
@@ -271,6 +287,8 @@ a.fill-div {
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText"> EI 200/24*</h1>
+<h1 class="projectTileFilmText"></h1>
 <div class="projectTile">
 <a href="/project/2023/01/17/website.html" class="fill-div">
 <iframe class="projectTileImage" src="/home" style="border:none;height:362px;scrollbar-width:none;  pointer-events: none;" ></iframe>
@@ -283,6 +301,7 @@ a.fill-div {
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText">DAYLIGHT</h1>
 <div class="projectTile">
 <a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTk4NzcyMi8xMTY4OTQ0MS5wbmc=/794x1000/wC%2BRqc.png" >
