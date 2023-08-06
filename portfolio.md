@@ -16,8 +16,8 @@ h1 {
   color: white;
 }
 .fa {
-  border-style: groove;
-  border-width: 5px;
+  border-style: solid;
+  border-width: 3px;
   border-radius: 10px;
   border-color: pink;
   padding: 10px; 
