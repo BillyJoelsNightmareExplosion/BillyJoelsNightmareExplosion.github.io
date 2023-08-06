@@ -157,7 +157,7 @@ a:active {
 .projectTileFileGate {
   position: absolute;
   scale: 1.5 1.36;
-  left: 80px;
+  left: 93px;
   top: 40px;
   overflow: visible;
 }
