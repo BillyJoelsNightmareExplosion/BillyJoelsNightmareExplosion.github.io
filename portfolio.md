@@ -71,8 +71,10 @@ html, body {
   /* For browsers that do not support gradients */
   /* background-image: linear-gradient(#55646e, #c8c8c8 20%);  url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png'), */
   background-image: url('film-grain.gif'), url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur_blur.png');
+  background-blend-mode: overlay;
   background-attachment: fixed, fixed;
-  background-size: 1000px, cover;
+  background-size: 1400px, cover;
+  background-position: center center; 
 
 }
 h1 {
@@ -134,11 +136,12 @@ a:active {
     position: relative;
     margin: 30px 0px;
     display: block;
-    padding-bottom: 56%; /* 16:9 */
+    padding-bottom: 56.25%; /* 16:9 */
     clip-path: inset(0% 0% 0% 0% round 10px);
     opacity: 0.5;
-    filter: grayscale(100%) sepia(100%) brightness(100%) hue-rotate(-100deg);
-    transition: opacity 0.2s, scale 0.2s;
+    /* filter: saturate(3) contrast(130%) brightness(150%) blur(1px); */
+    filter: grayscale(100%) sepia(100%) brightness(100%) hue-rotate(-100deg) blur(1px);
+    transition: filter 0.2s, scale 0.2s, opacity 0.2s;
 }
 .projectTile:hover {
     z-index: 1000;
@@ -156,11 +159,18 @@ a:active {
 }
 .projectTileFileGate {
   position: absolute;
-  scale: 1.5 1.36;
+  scale: 1.5 1.355;
   left: 93px;
   top: 40px;
   overflow: visible;
   filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-100deg);
+  transition: opacity 0.2s;
+}
+@media screen and (max-width: 1092px) {
+  .projectTileFileGate {opacity: 0;}
+}
+@media screen and (max-width: 640px) {
+  .projectTile {filter: none; opacity: 1;}
 }
 </style>
 
@@ -169,11 +179,7 @@ Hello! Below you'll find my reel and links to some of my work that I've highligh
 <div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="videoWrapper">
 <iframe
 width="640"
@@ -223,14 +229,8 @@ a.fill-div {
 }
 </style>
 
-
-
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="/landshark" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
@@ -241,11 +241,7 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="https://alectrem.itch.io/doomed-tales" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMjE3NTg0Mi8xMjg1Mzc4My5naWY=/794x1000/qWsqK%2F.gif" >
@@ -256,11 +252,7 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/rx8.png" >
@@ -271,14 +263,11 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="/project/2023/01/17/website.html" class="fill-div">
 <iframe class="projectTileImage" src="/home" style="border:none;height:362px;scrollbar-width:none;  pointer-events: none;" ></iframe>
+<img src="1x1.png" style="width:100%;position:absolute">
 <h1 class="projectTileLabel">this website</h1>
 <i class="fa fa-external-link-square"></i>
 </a>
@@ -286,11 +275,7 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTk4NzcyMi8xMTY4OTQ0MS5wbmc=/794x1000/wC%2BRqc.png" >
@@ -301,11 +286,7 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="https://alectrem.itch.io/who-killed-thelonious" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTcyOTY2Ny8xMDE4NTYwNC5wbmc=/794x1000/lWVxVr.png" >
@@ -316,11 +297,7 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="https://vimeo.com/365898993" class="fill-div">
 <img class="projectTileImage" src="https://i.vimeocdn.com/video/821777457-77235e8e54841902a7bd9c625ac63b2e8fdbee8520fa7b4a40d77d219b3c3a3f-d?mw=1600&mh=844&q=70" >
@@ -331,11 +308,7 @@ a.fill-div {
 </div>
 
 <div class="pj">
-<picture>
-  <source srcset="1x1.png" media="(max-width: 1092px)">
-  <source srcset="film-gate.png">
-  <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-</picture>
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <div class="projectTile">
 <a href="https://youtu.be/Dn0MROC39oQ" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/dancethumbnail.webp" >
