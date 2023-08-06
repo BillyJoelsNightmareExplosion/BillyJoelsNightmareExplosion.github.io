@@ -133,8 +133,12 @@ a:active {
     clip-path: inset(0% 0% 0% 0% round 10px);
     opacity: 0.5;
     filter: grayscale(100%) sepia(100%) brightness(100%) hue-rotate(-100deg);
+    transition: opacity 0.2s, scale 0.2s;
 }
 .projectTile:hover {
+    z-index: 1000;
+    box-shadow: 1000px 10px;
+    scale: 1.05;
     opacity: 1;
     filter: sepia(0%)
 }
@@ -174,9 +178,24 @@ a.fill-div {
   font-size: 24px;
   text-shadow: 2px 2px 8px #000000;
   color: pink;
+  margin-right: 15%;
 }
 .projectTile:hover .projectTileLabel {
   color: lightblue;
+}
+.fa-external-link-square {
+  border-style: none;
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 38px;
+  text-shadow: 2px 2px 8px #000000;
+  color: pink;
+  padding-left: 24px;
+}
+.projectTile:hover .fa-external-link-square {
+  color: lightblue;
+  border-style: none;
 }
 </style>
 
@@ -185,6 +204,7 @@ a.fill-div {
 <a href="/landshark" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
 <h1 class="projectTileLabel">realtime "liquid" in unreal</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
 
@@ -192,6 +212,7 @@ a.fill-div {
 <a href="https://alectrem.itch.io/doomed-tales" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMjE3NTg0Mi8xMjg1Mzc4My5naWY=/794x1000/qWsqK%2F.gif" >
 <h1 class="projectTileLabel">DOOMED TALES (game jam)</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
 
@@ -199,6 +220,7 @@ a.fill-div {
 <a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/rx8.png" >
 <h1 class="projectTileLabel">a recreation of #70 with blender and unreal</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
 
@@ -207,6 +229,7 @@ a.fill-div {
 <a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTk4NzcyMi8xMTY4OTQ0MS5wbmc=/794x1000/wC%2BRqc.png" >
 <h1 class="projectTileLabel">Squirreling Away (game jam)</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
 
@@ -214,6 +237,7 @@ a.fill-div {
 <a href="https://alectrem.itch.io/who-killed-thelonious" class="fill-div">
 <img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTcyOTY2Ny8xMDE4NTYwNC5wbmc=/794x1000/lWVxVr.png" >
 <h1 class="projectTileLabel">who killed thelonious (game jam)</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
 
@@ -221,6 +245,7 @@ a.fill-div {
 <a href="https://vimeo.com/365898993" class="fill-div">
 <img class="projectTileImage" src="https://i.vimeocdn.com/video/821777457-77235e8e54841902a7bd9c625ac63b2e8fdbee8520fa7b4a40d77d219b3c3a3f-d?mw=1600&mh=844&q=70" >
 <h1 class="projectTileLabel">breakup melody (short film)</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
 
@@ -228,5 +253,6 @@ a.fill-div {
 <a href="https://youtu.be/Dn0MROC39oQ" class="fill-div">
 <img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/dancethumbnail.webp" >
 <h1 class="projectTileLabel">turn up the radio (performance art music video)</h1>
+<i class="fa fa-external-link-square"></i>
 </a>
 </div>
