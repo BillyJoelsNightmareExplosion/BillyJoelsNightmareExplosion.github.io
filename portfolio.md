@@ -61,7 +61,7 @@ h1 {
 <h1>
 Alec Tremblay, Technical Artist
 <a href="https://www.linkedin.com/in/alectremblay/" class="fa fa-linkedin"></a>
-<a href="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/resume.pdf" class="fa fa-resume">resume</a>
+<a href="/resume" class="fa fa-resume">resume</a>
 </h1>
 
 <style>
