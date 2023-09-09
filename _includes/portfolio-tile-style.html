@@ -1,0 +1,91 @@
+<style>
+.pj {
+    position: relative;
+}
+.projectTile {
+    position: relative;
+    margin: 30px 0px;
+    display: block;
+    padding-bottom: 56.25%; /* 16:9 */
+    clip-path: inset(0% 0% 0% 0% round 10px);
+    opacity: 0.5;
+    /* filter: saturate(3) contrast(130%) brightness(150%) blur(1px); */
+    filter: grayscale(100%) sepia(100%) brightness(100%) hue-rotate(-100deg) blur(1px);
+    transition: filter 0.2s, scale 0.2s, opacity 0.2s;
+}
+.projectTile:hover {
+    z-index: 1000;
+    box-shadow: 1000px 10px;
+    scale: 1.05;
+    opacity: 1;
+    filter: sepia(0%)
+}
+.projectTileImage {
+    position: absolute;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.projectTileFileGate {
+  position: absolute;
+  scale: 1.5 1.355;
+  left: 93px;
+  top: 40px;
+  overflow: visible;
+  filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-100deg);
+  transition: opacity 0.2s;
+}
+.projectTileFilmText {
+  font-family: "spotted_rail_ticketregular";
+  color: #e6e6e6;
+  filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-90deg);
+  scale: 230%;
+  position:absolute;
+  transform: translate(335px,60px);
+  writing-mode: vertical-rl;
+  text-align: left;
+  text-wrap: nowrap;
+}
+@media screen and (max-width: 1092px) {
+  .projectTileFileGate {opacity: 0;}
+  .projectTileFilmText {opacity: 0;}
+}
+@media screen and (max-width: 640px) {
+  .projectTile {filter: none; opacity: 1;}
+}
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.projectTileLabel {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  font-size: 24px;
+  text-shadow: 2px 2px 8px #000000;
+  color: pink;
+  margin-right: 15%;
+}
+.projectTile:hover .projectTileLabel {
+  color: lightblue;
+}
+.fa-external-link-square {
+  border-style: none;
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 38px;
+  text-shadow: 2px 2px 8px #000000;
+  color: pink;
+  padding-left: 24px;
+  pointer-events: none;
+}
+.projectTile:hover .fa-external-link-square {
+  color: lightblue;
+  border-style: none;
+  opacity: 0.8;
+}
+</style>

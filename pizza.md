@@ -10,15 +10,7 @@ categories: pizza
 
 Hello. This is the most recent pizza I've made and photographed. Please [contact me](/home) or [create an issue](https://github.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/issues) if this pizza is out of date.
 
-<style> 
-#borderimg1 { 
-  border-style: solid;
-  border-width: 100px;
-  border-image: url(https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/frame.png) 333 333 333 333 repeat repeat;
-}
-img {
-  width: 100%;
-}
+<style>
 div.a {
   text-align: center;
   padding: 10px;
@@ -38,11 +30,8 @@ div.a {
 }
 </style>
 
-<p id="borderimg1">
-<img
-    src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/pizza.jpg"
-    alt="pizza">
-</p>
+{% include framed-img.html src='https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/pizza.jpg' %}
+
 
 <div class="a" >
 rate this pizza:

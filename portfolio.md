@@ -113,78 +113,9 @@ a:active {
   color: pink;
   background-color: transparent;
 }
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-    overflow: hidden;
-}
-.videoWrapper iframe {
-    position: absolute;
-    border-radius: 15px;
-    overflow: hidden;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.pj {
-    position: relative;
-}
-.projectTile {
-    position: relative;
-    margin: 30px 0px;
-    display: block;
-    padding-bottom: 56.25%; /* 16:9 */
-    clip-path: inset(0% 0% 0% 0% round 10px);
-    opacity: 0.5;
-    /* filter: saturate(3) contrast(130%) brightness(150%) blur(1px); */
-    filter: grayscale(100%) sepia(100%) brightness(100%) hue-rotate(-100deg) blur(1px);
-    transition: filter 0.2s, scale 0.2s, opacity 0.2s;
-}
-.projectTile:hover {
-    z-index: 1000;
-    box-shadow: 1000px 10px;
-    scale: 1.05;
-    opacity: 1;
-    filter: sepia(0%)
-}
-.projectTileImage {
-    position: absolute;
-    border-radius: 15px;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-}
-.projectTileFileGate {
-  position: absolute;
-  scale: 1.5 1.355;
-  left: 93px;
-  top: 40px;
-  overflow: visible;
-  filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-100deg);
-  transition: opacity 0.2s;
-}
-.projectTileFilmText {
-  font-family: "spotted_rail_ticketregular";
-  color: #e6e6e6;
-  filter: grayscale(100%) sepia(100%) brightness(75%) hue-rotate(-90deg);
-  scale: 230%;
-  position:absolute;
-  transform: translate(335px,60px);
-  writing-mode: vertical-rl;
-  text-align: left;
-  text-wrap: nowrap;
-}
-@media screen and (max-width: 1092px) {
-  .projectTileFileGate {opacity: 0;}
-  .projectTileFilmText {opacity: 0;}
-}
-@media screen and (max-width: 640px) {
-  .projectTile {filter: none; opacity: 1;}
-}
 </style>
+
+{% include portfolio-tile-style.html %}
 
 Hello! 
 
@@ -200,90 +131,14 @@ Thanks for stopping by!
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
 <h1 class="projectTileFilmText">KODAK</h1>
-<div class="videoWrapper">
-<iframe
-width="640"
-height="362"
-src="https://www.youtube.com/embed/lVGSqY_PqnE"
-color=white
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-embed.html src='https://www.youtube.com/embed/lVGSqY_PqnE' %}
 </div>
 
-<style>
-a.fill-div {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-}
-.projectTileLabel {
-  position: absolute;
-  top: 0px;
-  left: 18px;
-  font-size: 24px;
-  text-shadow: 2px 2px 8px #000000;
-  color: pink;
-  margin-right: 15%;
-}
-.projectTile:hover .projectTileLabel {
-  color: lightblue;
-}
-.fa-external-link-square {
-  border-style: none;
-  position: absolute;
-  top: 12px;
-  right: 18px;
-  font-size: 38px;
-  text-shadow: 2px 2px 8px #000000;
-  color: pink;
-  padding-left: 24px;
-  pointer-events: none;
-}
-.projectTile:hover .fa-external-link-square {
-  color: lightblue;
-  border-style: none;
-  opacity: 0.8;
-}
-</style>
+{% for tile in site.data.tiles limit:3 %}
+  {% include portfolio-tile.html film-text=tile.film-text label=tile.label href=tile.href img-src=tile.img-src %}
+{% endfor %}
 
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<h1 class="projectTileFilmText">TRI-X</h1>
-<div class="projectTile">
-<a href="/landshark" class="fill-div">
-<img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/landshark/portfolio_button.gif" >
-<h1 class="projectTileLabel">realtime "liquid" in unreal</h1>
-<i class="fa fa-external-link-square disabled"></i>
-</a>
-</div>
-</div>
-
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<h1 class="projectTileFilmText"> EI 160/23*</h1>
-<div class="projectTile">
-<a href="https://alectrem.itch.io/doomed-tales" class="fill-div">
-<img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMjE3NTg0Mi8xMjg1Mzc4My5naWY=/794x1000/qWsqK%2F.gif" >
-<h1 class="projectTileLabel">DOOMED TALES (game jam)</h1>
-<i class="fa fa-external-link-square"></i>
-</a>
-</div>
-</div>
-
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<h1 class="projectTileFilmText">TUNGSTEN</h1>
-<div class="projectTile">
-<a href="https://youtu.be/QRKCdJUPjLg" class="fill-div">
-<img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/rx8.png" >
-<h1 class="projectTileLabel">a recreation of #70 with blender and unreal</h1>
-<i class="fa fa-external-link-square"></i>
-</a>
-</div>
-</div>
+<!-- this tile uses an iframe instead of an image, and thus requires it's own unique definition below:  -->
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
@@ -299,49 +154,6 @@ a.fill-div {
 </div>
 </div>
 
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<h1 class="projectTileFilmText">DAYLIGHT</h1>
-<div class="projectTile">
-<a href="https://alectrem.itch.io/squirreling-away" class="fill-div">
-<img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTk4NzcyMi8xMTY4OTQ0MS5wbmc=/794x1000/wC%2BRqc.png" >
-<h1 class="projectTileLabel">Squirreling Away (game jam)</h1>
-<i class="fa fa-external-link-square"></i>
-</a>
-</div>
-</div>
-
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<div class="projectTile">
-<a href="https://alectrem.itch.io/who-killed-thelonious" class="fill-div">
-<img class="projectTileImage" src="https://img.itch.zone/aW1hZ2UvMTcyOTY2Ny8xMDE4NTYwNC5wbmc=/794x1000/lWVxVr.png" >
-<h1 class="projectTileLabel">who killed thelonious (game jam)</h1>
-<i class="fa fa-external-link-square"></i>
-</a>
-</div>
-</div>
-
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<div class="projectTile">
-<a href="https://vimeo.com/365898993" class="fill-div">
-<img class="projectTileImage" src="https://i.vimeocdn.com/video/821777457-77235e8e54841902a7bd9c625ac63b2e8fdbee8520fa7b4a40d77d219b3c3a3f-d?mw=1600&mh=844&q=70" >
-<h1 class="projectTileLabel">breakup melody (short film)</h1>
-<i class="fa fa-external-link-square"></i>
-</a>
-</div>
-</div>
-
-<div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<div class="projectTile">
-<a href="https://youtu.be/Dn0MROC39oQ" class="fill-div">
-<img class="projectTileImage" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/dancethumbnail.webp" >
-<h1 class="projectTileLabel">turn up the radio (performance art music video)</h1>
-<i class="fa fa-external-link-square"></i>
-</a>
-</div>
-</div>
-
-</div>
+{% for tile in site.data.tiles offset:3 %}
+  {% include portfolio-tile.html film-text=tile.film-text label=tile.label href=tile.href img-src=tile.img-src %}
+{% endfor %}
