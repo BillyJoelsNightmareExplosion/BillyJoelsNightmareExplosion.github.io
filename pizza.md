@@ -11,6 +11,9 @@ categories: pizza
 Hello. This is the most recent pizza I've made and photographed. Please [contact me](/home) or [create an issue](https://github.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/issues) if this pizza is out of date.
 
 <style>
+html {
+  background-color: white;
+}
 div.a {
   text-align: center;
   padding: 10px;

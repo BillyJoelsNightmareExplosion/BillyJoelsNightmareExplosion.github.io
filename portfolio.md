@@ -142,7 +142,7 @@ Thanks for stopping by!
 
 <div class="pj">
 <img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
-<h1 class="projectTileFilmText"> EI 200/24*</h1>
+<h1 class="projectTileFilmText"></h1>
 <h1 class="projectTileFilmText"></h1>
 <div class="projectTile">
 <a href="/project/2023/01/17/website.html" class="fill-div">
@@ -153,6 +153,21 @@ Thanks for stopping by!
 </a>
 </div>
 </div>
+
+<div class="pj">
+<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<h1 class="projectTileFilmText"> EI 200/24*</h1>
+<h1 class="projectTileFilmText"></h1>
+<div class="projectTile">
+<a href="https://fsu.devlup.org/posts/gbm-1-f23" class="fill-div">
+<iframe class="projectTileImage" src="https://fsu.devlup.org/posts/gbm-1-f23" style="border:none;height:362px;scrollbar-width:none;  pointer-events: none;" ></iframe>
+<img src="1x1.png" style="width:100%;position:absolute">
+<h1 class="projectTileLabel">DevLUp FSU website (my game dev club)</h1>
+<i class="fa fa-external-link-square"></i>
+</a>
+</div>
+</div>
+
 
 {% for tile in site.data.tiles offset:3 %}
   {% include portfolio-tile.html film-text=tile.film-text label=tile.label href=tile.href img-src=tile.img-src %}
