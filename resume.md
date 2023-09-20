@@ -2,23 +2,48 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: none
+layout: default
 permalink: /resume
 categories:
 ---
 
 <style>
- html {
-    font-size: 10px;
+ .w {
+    font-family: monospace;
+    max-width: 100%;
+    margin-bottom: 0;
  }
  h1 {
-    text-align: center;
+   text-align: center;
  }
+  h2 {
+   border-bottom: 2px ridge;
+   width: 100%;
+   display: block;
+ }
+h3 {
+   line-height: 0rem;
+}
+.myLinks{ /* thanks old bad portfolio page! */
+  text-align: justify;
+  color: black;
+}
+.myLinks:after { /* Justify last line */
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
 </style>
 
 # Alec Tremblay
 
-[tremblayalec14@gmail.com](mailto:tremblayalec14@gmail.com)   [linkedin.com/in/alectremblay](https://linkedin.com/in/alectremblay)   [alectremblay.xyz](https://alectremblay.xyz/)   (954) 850-6057
+
+<div class="myLinks">
+<a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
+<a href="https://www.linkedin.com/in/alectremblay/">linkedin.com/in/alectremblay</a>
+<a href="https://alectremblay.xyz/">alectremblay.xyz</a>
+<a>(954)-850-6057</a>
+</div>
 
 ## Experience 
 ### Technical Artist Intern - PlayStation Studios Visual Arts
