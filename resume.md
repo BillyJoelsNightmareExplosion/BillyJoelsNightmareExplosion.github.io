@@ -9,7 +9,6 @@ categories:
 
 <style>
  .w {
-    font-family: monospace;
     max-width: 100%;
     margin-bottom: 0;
  }
@@ -20,11 +19,19 @@ categories:
    border-bottom: 2px ridge;
    width: 100%;
    display: block;
+   margin: 0.5rem 0;
  }
 h3 {
-   line-height: 0rem;
+  margin: 0.1rem 0;
+  line-height: 1rem;
 }
-.myLinks{ /* thanks old bad portfolio page! */
+p, ul {
+  margin: 0.2rem 0;
+  color: #545454;
+}
+.myLinks { /* thanks old bad portfolio page! */
+  margin: 0.2rem 0;
+  color: #545454;
   text-align: justify;
   color: black;
 }
