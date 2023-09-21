@@ -8,11 +8,16 @@ categories:
 ---
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
  .w {
+    font-family: 'Atkinson Hyperlegible';
     max-width: 100%;
     margin-bottom: 0;
+    padding: 1rem 2rem;
  }
- h1 {
+ h1, blockquote {
    text-align: center;
  }
   h2 {
@@ -29,6 +34,10 @@ p, ul {
   margin: 0.2rem 0;
   color: #545454;
 }
+ ul {
+   list-style: "> ";
+   padding-left: 1.5rem;
+ }
 .myLinks { /* thanks old bad portfolio page! */
   margin: 0.2rem 0;
   color: #545454;
@@ -42,8 +51,9 @@ p, ul {
 }
 </style>
 
-# Alec Tremblay
+> if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
 
+# Alec Tremblay
 
 <div class="myLinks">
 <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
@@ -77,11 +87,34 @@ August 2023 - May 2024
 - Developed a club website and began use of agile tasking to organize operations.
 - Hosted game jams (hackathons) and games industry recruiters to talk to members. 
 
+## Projects
+### [Dynanmic Beer Shader in Unreal Engine 5](https://alectremblay.xyz/landshark)
+Unreal Engine 5, Blender, Photoshop
+- UE Blueprint script that calculates liquid surface position/normal and "turbulence" from movement and rotation, sends to material
+- Material creates masks with a custom render layer and position information to shade below liquid, surface, and above liquid differently
+- Custom sine material function takes multiples wave height by turbulence to offset masks for an uneven liquid surface
+- Foam and bubbles appear when upset and dissipate when at rest  
+
+### ["DOOMed Tales" (game jam)](https://alectrem.itch.io/doomed-tales)
+Godot Engine (gdscript), Git, Blender/Maya, Photoshop  
+- Implemented character controller, shotgun with random spread and animations, spline based ziplines
+- Made textures, materials, post-processing, particles
+- Organized game jam and managed project
+
+### [DOOMed Tales (game jam)](https://alectrem.itch.io/doomed-tales)
+Godot Engine (gdscript), Git, Blender/Maya, Photoshop  
+- Implemented character controller, shotgun with random spread and animations, spline based ziplines
+- Made textures, materials, post-processing, particles
+- Organized game jam and managed project
+
+### Website
+
 ## Education 
-(Ongoing) Florida State University  
+### (Ongoing) Florida State University  
 Bachelor's of Science, Computer Science, Math Minor (3.5/4.0 GPA)  
 Graduating May 2024
+
 ## Tools 
 Python  •  Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/Java for school projects  
 
-For hobbies/interests/personal musings on things, explore my site!
+*For hobbies/interests/personal musings on things (like pizza), explore my site!*
