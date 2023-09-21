@@ -76,7 +76,7 @@ May 2022 - Aug 2022 (4 months, full time)
 ### Virtual Production Research Intern - Florida State University  
 Mar 2021 - Apr 2022 (1 year 2 months, part time)  
 - Completed scan processing in Reality Capture, mesh retopology and texture cleanup in Blender, layout and final construction of Reims cathedral for an educational VR tour for the Oculus Quest using Unreal Engine.
-Helped construct and configure LED wall stage for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, moving lights, changing setups, fixing other issues, etc.
+- Helped construct and configure LED wall stage for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, moving lights, changing setups, fixing other issues, etc.
 - Made Python code contributions to CG Lumberjack pipeline tools for Unreal Engine.
 
 ## Professional Development
@@ -90,9 +90,9 @@ August 2023 - May 2024
 ## Projects
 ### [Dynamic Beer Shader in Unreal Engine 5](https://alectremblay.xyz/landshark)
 Unreal Engine 5, Blender, Photoshop
-- UE Blueprint script that calculates liquid surface position/normal and "turbulence" from movement and rotation, sends to material
-- Material creates masks with a custom render layer and position information to shade below liquid, surface, and above liquid differently
-- Custom sine material function takes multiples wave height by turbulence to offset masks for an uneven liquid surface
+- Blueprint script that calculates liquid surface position/normal and "turbulence" from movement and rotation, sends to material
+- Material creates masks with custom render layer and position information to shade liquid, the liquid surface, and glass differently on one mesh
+- Custom sine material function multiples wave height by turbulence to offset masks for an uneven liquid surface
 - Foam and bubbles appear when upset and dissipate when at rest  
 
 ### [DOOMed Tales (game jam)](https://alectrem.itch.io/doomed-tales)
@@ -103,9 +103,13 @@ Godot Engine (gdscript), Git, Blender/Maya, Photoshop
 
 ### [Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)
 Unreal Engine 5, Blender, Photoshop  
-- 
+- talk about different kinds of surfaces
+- how materials work, lighting
+- fidelity?
 
 ### Website
+
+### Snowman Tool? Some other kind of tool
 
 ## Education 
 ### (Ongoing) Florida State University  
