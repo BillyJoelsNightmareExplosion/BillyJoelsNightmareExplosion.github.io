@@ -12,7 +12,7 @@ categories:
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
  .w {
-    font-family: 'Atkinson Hyperlegible';
+    font-family: 'Atkinson Hyperlegible', monospace;
     max-width: 100%;
     margin-bottom: 0;
     padding: 1rem 2rem;
@@ -50,8 +50,6 @@ p, ul {
     width: 100%;
 }
 </style>
-
-> if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
 
 # Alec Tremblay
 
@@ -103,13 +101,18 @@ Godot Engine (gdscript), Git, Blender/Maya, Photoshop
 
 ### [Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)
 Unreal Engine 5, Blender, Photoshop  
-- talk about different kinds of surfaces
-- how materials work, lighting
-- fidelity?
-
-### Website
+- Rendered in Unreal Engine 4, made all materials, lighting setups.
+- Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester
+- Car body material uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
 
 ### Snowman Tool? Some other kind of tool
+Python, Maya.cmds API
+- Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen
+- Creates polySpheres in the scene with correct transforms and radii, builds simple materials and assigns them
+
+### [My Personal Website](https://alectremblay.xyz/)
+Jeykyll, Html/Css
+
 
 ## Education 
 ### (Ongoing) Florida State University  
@@ -120,3 +123,5 @@ Graduating May 2024
 Python  •  Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/Java for school projects  
 
 *For hobbies/interests/personal musings on things (like pizza), explore my site!*
+
+> if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
