@@ -88,24 +88,22 @@ August 2023 - May 2024
 - Hosted game jams (hackathons) and games industry recruiters to talk to members. 
 
 ## Projects
-### [Dynanmic Beer Shader in Unreal Engine 5](https://alectremblay.xyz/landshark)
+### [Dynamic Beer Shader in Unreal Engine 5](https://alectremblay.xyz/landshark)
 Unreal Engine 5, Blender, Photoshop
 - UE Blueprint script that calculates liquid surface position/normal and "turbulence" from movement and rotation, sends to material
 - Material creates masks with a custom render layer and position information to shade below liquid, surface, and above liquid differently
 - Custom sine material function takes multiples wave height by turbulence to offset masks for an uneven liquid surface
 - Foam and bubbles appear when upset and dissipate when at rest  
 
-### ["DOOMed Tales" (game jam)](https://alectrem.itch.io/doomed-tales)
-Godot Engine (gdscript), Git, Blender/Maya, Photoshop  
-- Implemented character controller, shotgun with random spread and animations, spline based ziplines
-- Made textures, materials, post-processing, particles
-- Organized game jam and managed project
-
 ### [DOOMed Tales (game jam)](https://alectrem.itch.io/doomed-tales)
 Godot Engine (gdscript), Git, Blender/Maya, Photoshop  
 - Implemented character controller, shotgun with random spread and animations, spline based ziplines
 - Made textures, materials, post-processing, particles
 - Organized game jam and managed project
+
+### [Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)
+Unreal Engine 5, Blender, Photoshop  
+- 
 
 ### Website
 
