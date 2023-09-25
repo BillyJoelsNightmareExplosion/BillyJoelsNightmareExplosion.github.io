@@ -93,11 +93,11 @@ Unreal Engine 5, Blender, Photoshop
 - Custom sine material function multiples wave height by turbulence to offset masks for an uneven liquid surface
 - Foam and bubbles appear when upset and dissipate when at rest  
 
-### [DOOMed Tales (game jam)](https://alectrem.itch.io/doomed-tales)
-Godot Engine (gdscript), Git, Blender/Maya, Photoshop  
-- Implemented character controller, shotgun with random spread and animations, spline based ziplines
-- Made textures, materials, post-processing, particles
-- Organized game jam and managed project
+### [3x Game Jams](https://alectrem.itch.io)
+Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop  
+- Organized and produced three 3D games, each designed and produced in 48-72 hours.
+- Programmed character controllers, animation state machines, random spread weapons, effects spawning
+- Made textures, materials, post-processing, particles, skeletal meshes and animations for characters and weapons
 
 ### [Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)
 Unreal Engine 5, Blender, Photoshop  
@@ -105,7 +105,7 @@ Unreal Engine 5, Blender, Photoshop
 - Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester
 - Car body material uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
 
-### Snowman Tool? Some other kind of tool
+### [Snowman Tool](https://devlup.org/projects/410635808345686016/view/procedural-snowman-in-maya-with-python)
 Python, Maya.cmds API
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen
 - Creates polySpheres in the scene with correct transforms and radii, builds simple materials and assigns them
@@ -120,8 +120,8 @@ Bachelor's of Science, Computer Science, Math Minor (3.5/4.0 GPA)
 Graduating May 2024
 
 ## Tools 
-Python  •  Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/Java for school projects  
+Python  •  Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/C and Java for school projects  
 
-*For hobbies/interests/personal musings on things (like pizza), explore my site!*
+*For hobbies/interests/personal musings on things (like [pizza](https://alectremblay.xyz/pizza/)), explore my site!*
 
 > if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
