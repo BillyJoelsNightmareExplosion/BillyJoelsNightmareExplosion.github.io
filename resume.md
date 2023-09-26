@@ -138,7 +138,7 @@ ul {
 
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
 
-{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, Html/Css' %}
+{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS' %}
 
 ## Tools, Activities, Interests
 **Languages and Tools:** Python • C++/C and Java for school projects • Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Git/Github • Plastic SCM • Jira/Confluence (and Atlassian REST API) • Reality Capture • Davinci Resolve  
