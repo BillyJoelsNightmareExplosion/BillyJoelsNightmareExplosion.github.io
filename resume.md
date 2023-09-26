@@ -39,12 +39,13 @@ p, ul {
    padding-left: 1.5rem;
  }
 .myLinks { /* thanks old bad portfolio page! */
-  margin: 0.2rem 0;
   color: #545454;
   text-align: justify;
   color: black;
 }
 .myLinks:after { /* Justify last line */
+    margin: 0.2rem 0;
+    line-height: 1;
     content: '';
     display: inline-block;
     width: 100%;
@@ -60,68 +61,73 @@ p, ul {
 <a>(954)-850-6057</a>
 </div>
 
-## Experience 
-### Technical Artist Intern - PlayStation Studios Visual Arts
-May 2023 - Aug 2023 (4 months, full time)  
-- Designed and wrote tools and automations in Python for Autodesk Maya with PyQt/Pyside2 GUI, as well as rewrote old tools to conform to modern coding standards and best practices. Made user-facing documentation on Confluence.
 
-### Pipeline Intern - Steamroller Technologies  
-May 2022 - Aug 2022 (4 months, full time) 
-- Worked in a team on planning, developing a pipeline for game and themed experience development in Python with workflow-specific optimizations and automations for version control with Plastic, continuous integration with Jenkins, Agile task tracking and project management with Jira for use with Unity and Unreal Engine development.
-- Made a Jira task submission tool for Slack with Slack Bolt, Slack Block Kit and Atlassian’s REST API to reduce workload for production for developer submitted tasks. Developers can submit tasks through a Slack GUI app that will be DM’d to their production coordinator and created automatically with one button press to approve the task.
-- Built developer-facing documentation for my code with Doxygen and user-facing documentation on Confluence.
+## Education 
 
-### Virtual Production Research Intern - Florida State University  
-Mar 2021 - Apr 2022 (1 year 2 months, part time)  
-- Completed scan processing in Reality Capture, mesh retopology and texture cleanup in Blender, layout and final construction of Reims cathedral for an educational VR tour for the Oculus Quest using Unreal Engine.
-- Helped construct and configure LED wall stage for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, moving lights, changing setups, fixing other issues, etc.
-- Made Python code contributions to CG Lumberjack pipeline tools for Unreal Engine.
+{% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
+{% include left-right.html tag='p' left='Bachelor’s of Science, Computer Science, Math Minor (3.5/4.0 GPA)' right='Aug 2020 - May 2024' %}
 
-## Professional Development
-### President - DevLUp FSU (Game Development Club)
-August 2023 - May 2024  
+
+## Experience & Professional Development
+{% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
+{% include left-right.html tag='p' left='Technical Artist Intern' right='May 2023 - Aug 2023 (4 months, full time)' %}
+
+- Designed and wrote tools and automations in Python for Autodesk Maya with PyQt/Pyside2 GUI, rewrote old tools to conform to modern coding standards and best practices.
+- Developed a tool that replaces Maya Shelf Editor with a custom, simplified UI and automates tool deployment across several supported Maya versions by converting redundant MEL to non-redundant JSON.
+- Made user-facing documentation on Confluence.
+
+{% include left-right.html tag='h3' left='DevLUp FSU (Game Development Club)' right='Tallahassee, FL' %}
+{% include left-right.html tag='p' left='President' right='August 2023 - May 2024 (10 months, part time)' %}
+
 - Designed, organized and ran hands-on workshops on games programming, workflows, 3D art.
-- Grew organization from ~5 attendees per meeting to ~30
 - Developed a club website and began use of agile tasking to organize operations.
 - Hosted game jams (hackathons) and games industry recruiters to talk to members. 
 
+{% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
+{% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months, full time)' %}
+
+- Worked in a team on designing and developing a pipeline for with Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
+- Made a Jira task submission tool for Slack with Slack Bolt, Slack Block Kit and Atlassian’s REST API to reduce workload for producers for developer submitted tasks - developers can submit tasks through a Slack GUI app that will be sent to their producer and created automatically with one button press to approve the task.
+
+
+{% include left-right.html tag='h3' left='Florida State University – College of Motion Picture Arts' right='Tallahassee, FL' %}
+{% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months, part time)' %}
+
+- Worked on an educational VR tour of Reims Cathedral for the Oculus Quest using Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
+- Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, moving lights, changing setups, fixing other issues, etc.
+
+
 ## Projects
-### [Dynamic Beer Shader in Unreal Engine 5](https://alectremblay.xyz/landshark)
-Unreal Engine 5, Blender, Photoshop
-- Blueprint script that calculates liquid surface position/normal and "turbulence" from movement and rotation, sends to material
-- Material creates masks with custom render layer and position information to shade liquid, the liquid surface, and glass differently on one mesh
-- Custom sine material function multiples wave height by turbulence to offset masks for an uneven liquid surface
-- Foam and bubbles appear when upset and dissipate when at rest  
 
-### [3x Game Jams](https://alectrem.itch.io)
-Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop  
+{% include left-right.html tag='a' left='[Physics-Driven Liquid Beer in Unreal Engine 5](https://alectremblay.xyz/landshark)' right='Unreal Engine 5, Blender, Photoshop' %}
+
+- Blueprint script calculates liquid surface position/normal and “turbulence” from bottle movement and rotation, sends to material.
+- Material creates masks with custom render layer and position information to shade liquid, the liquid surface, and glass differently on one mesh, with a sine material function to make the liquid surface appear non-planar.
+- Foam and bubbles appear when upset and dissipate when at rest.
+
+
+{% include left-right.html tag='a' left='[3x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
+
 - Organized and produced three 3D games, each designed and produced in 48-72 hours.
-- Programmed character controllers, animation state machines, random spread weapons, effects spawning
-- Made textures, materials, post-processing, particles, skeletal meshes and animations for characters and weapons
+- Programmed character controllers, animation state machines, random spread weapons, effects spawning.
+- Made materials, effects/particles, skeletal meshes and animations for characters and weapons.
 
-### [Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)
-Unreal Engine 5, Blender, Photoshop  
+{% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
+
 - Rendered in Unreal Engine 4, made all materials, lighting setups.
 - Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester
 - Car body material uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
 
-### [Snowman Tool](https://devlup.org/projects/410635808345686016/view/procedural-snowman-in-maya-with-python)
-Python, Maya.cmds API
-- Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen
-- Creates polySpheres in the scene with correct transforms and radii, builds simple materials and assigns them
+{% include left-right.html tag='a' left='[Maya Procedural Snowman Creation Tool](https://devlup.org/projects/410635808345686016/view/procedural-snowman-in-maya-with-python)' right='Python, Maya.cmds API' %}
 
-### [My Personal Website](https://alectremblay.xyz/)
-Jeykyll, Html/Css
+- Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
 
+{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, Html/Css' %}
 
-## Education 
-### (Ongoing) Florida State University  
-Bachelor's of Science, Computer Science, Math Minor (3.5/4.0 GPA)  
-Graduating May 2024
+## Tools, Activities, Interests
+**Languages and Tools:** Python • Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/C and Java for school projects  
+**Activities and Interests:** [PIZZA](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Ramen
 
-## Tools 
-Python  •  Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/C and Java for school projects  
-
-*For hobbies/interests/personal musings on things (like [pizza](https://alectremblay.xyz/pizza/)), explore my site!*
+*For hobbies/interests/personal musings on things (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore my site!*
 
 > if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
