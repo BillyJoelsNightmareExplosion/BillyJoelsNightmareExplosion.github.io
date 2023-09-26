@@ -11,56 +11,72 @@ categories:
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
- .w {
-    font-family: 'Atkinson Hyperlegible', monospace;
-    max-width: 100%;
-    margin-bottom: 0;
-    padding: 1rem 2rem;
+.w {
+  font-family: 'Atkinson Hyperlegible', monospace;
+  max-width: 100%;
+  margin-bottom: 0;
+  padding: 1rem 2rem;
  }
- h1, blockquote {
-   text-align: center;
+h1, blockquote {
+  margin: 0.2rem 0;
+  text-align: center;
  }
-  h2 {
-   border-bottom: 2px ridge;
-   width: 100%;
-   display: block;
-   margin: 0.5rem 0;
+h2 {
+  border-bottom: 2px ridge;
+  width: 100%;
+  display: block;
+  margin: 0.5rem 0;
  }
 h3 {
   margin: 0.1rem 0;
   line-height: 1rem;
 }
 p, ul {
-  margin: 0.2rem 0;
+  margin: 0rem 0;
   color: #545454;
 }
- ul {
-   list-style: "> ";
-   padding-left: 1.5rem;
+a {
+  color: #519aba;
+}
+ul {
+  display: block;
+  line-height: 16px;
+  list-style: "> ";
+  padding-left: 1.5rem;
  }
-.myLinks { /* thanks old bad portfolio page! */
-  color: #545454;
-  text-align: justify;
-  color: black;
+.container {
+  display: flex;
 }
-.myLinks:after { /* Justify last line */
-    margin: 0.2rem 0;
-    line-height: 1;
-    content: '';
-    display: inline-block;
-    width: 100%;
+.container.space-around {
+  justify-content: space-around;
+} 
+.container.space-between {  
+  justify-content: space-between;
 }
+.fa-linkedin {
+  color: white;
+  background-color: #519aba;
+  border-style: solid;
+  border-color: #519aba;
+  clip-path: inset(0% 0% 0% 0% round 4px);
+}
+
 </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 # Alec Tremblay
 
-<div class="myLinks">
-<a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
-<a href="https://www.linkedin.com/in/alectremblay/">linkedin.com/in/alectremblay</a>
-<a href="https://alectremblay.xyz/">alectremblay.xyz</a>
-<a>(954)-850-6057</a>
+<div class="container space-around">
+  <p>Tallahassee, FL</p>
+  <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
+  <span>
+    <p class="fa fa-linkedin">  </p>
+    <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
+  </span>
+  <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
+  <p>(954)-850-6057</p>
 </div>
-
 
 ## Education 
 
@@ -110,13 +126,13 @@ p, ul {
 
 - Organized and produced three 3D games, each designed and produced in 48-72 hours.
 - Programmed character controllers, animation state machines, random spread weapons, effects spawning.
-- Made materials, effects/particles, skeletal meshes and animations for characters and weapons.
+- Made textures, materials, effects/particles, skeletal meshes and animations for characters and weapons.
 
 {% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
 
-- Rendered in Unreal Engine 4, made all materials, lighting setups.
-- Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester
-- Car body material uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
+- Made all materials, lighting setups, rendered for print with the Unreal Movie Render Queue.
+- Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester.
+- Car uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
 
 {% include left-right.html tag='a' left='[Maya Procedural Snowman Creation Tool](https://devlup.org/projects/410635808345686016/view/procedural-snowman-in-maya-with-python)' right='Python, Maya.cmds API' %}
 
@@ -125,9 +141,9 @@ p, ul {
 {% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, Html/Css' %}
 
 ## Tools, Activities, Interests
-**Languages and Tools:** Python • Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Plastic SCM  • Git • Jira/Confluence • Reality Capture • C++/C and Java for school projects  
-**Activities and Interests:** [PIZZA](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Ramen
+**Languages and Tools:** Python • C++/C and Java for school projects • Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Git/Github • Plastic SCM • Jira/Confluence (and Atlassian REST API) • Reality Capture • Davinci Resolve  
+**Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Ramen
 
-*For hobbies/interests/personal musings on things (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore my site!*
+*For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
 
 > if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
