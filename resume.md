@@ -53,6 +53,12 @@ ul {
 .container.space-between {  
   justify-content: space-between;
 }
+@media screen and (max-width: 750px) {
+  .container.space-around {display: none;}
+}
+@media screen and (min-width: 750px) {
+  .mobile-users-go-away {display: none;}
+}
 .fa-linkedin {
   color: white;
   background-color: #519aba;
@@ -76,6 +82,16 @@ ul {
   </span>
   <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
   <p>(954)-850-6057</p>
+</div>
+
+
+<!-- pfft im a good developer and I know this is bad this was test to see if you'd find it you win -->
+<div class="mobile-users-go-away">
+  <p style="text-align: right; display:block;">Tallahassee, FL</p>
+  <a style="text-align: right; display:block;" href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
+  <a style="text-align: right; display:block;" href="https://www.linkedin.com/in/alectremblay/">linkedin.com/in/alectremblay/</a>
+  <a style="text-align: right; display:block;" href="https://alectremblay.xyz/">alectremblay.xyz</a>
+  <p style="text-align: right; display:block;" >(954)-850-6057</p>
 </div>
 
 ## Education 
