@@ -8,8 +8,8 @@ categories:
 
 ---
 
-<form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/say-something-im-giving-up-on-you/BillyJoelsNightmareExplosion.github.io/commments/comments">
-  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+<form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/commments/comments">
+  <input name="options[redirect]" type="hidden" value="https://alectremblay.xyz">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <label><input name="fields[name]" type="text">Name</label>
