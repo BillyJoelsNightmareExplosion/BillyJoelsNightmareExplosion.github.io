@@ -71,7 +71,7 @@ pizza_ratings:
   allowedFields: ["rating", "message"]
   branch: "master"
   commitMessage: "pizza rated {fields.rating}"
-  filename: "entry{@timestamp}"
+  filename: "rated_{fields.rating}_{@timestamp}"
   format: "yaml"
   moderation: false
   name: "alectremblay.xyz"
