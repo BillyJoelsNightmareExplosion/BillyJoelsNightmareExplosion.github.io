@@ -70,7 +70,7 @@ comments:
 pizza_ratings:
   allowedFields: ["rating", "message"]
   branch: "master"
-  commitMessage: "another pizza rating"
+  commitMessage: "pizza rated {fields.rating}"
   filename: "entry{@timestamp}"
   format: "yaml"
   moderation: false
