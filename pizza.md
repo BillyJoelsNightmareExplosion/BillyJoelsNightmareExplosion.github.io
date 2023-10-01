@@ -59,7 +59,7 @@ div.a {
   width: 100%;
   height: 20%;
 }
-.thoughts {
+.name {
   background-color: white;
   border: solid;
   color: darkred;
@@ -73,12 +73,6 @@ div.a {
 </style>
 
 {% include framed-img.html src='https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/pizza/pizza.jpg' %}
-
-
-<div class="a" >
-rate this pizza:
-</div>
-
 
 <script>
 function SwapDivsWithClick() {
@@ -94,7 +88,13 @@ function SwapDivsWithClick() {
 <div class="pizzaForm">  
   <form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/pizza_ratings">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-    <!-- <textarea class="pizza thoughts" rows="1" name="fields[message]"></textarea> -->
+    <div class="a" >
+    enter your name:
+    </div>
+    <textarea class="pizza name" rows="1" name="fields[name]" required></textarea>
+    <div class="a" >
+    rate this pizza:
+    </div>
     <div class="a" >
     {% for i in (1..7) %}
       <button type="submit" name="fields[rating]" value="{{ i }}" class="pizza button" onclick="SwapDivsWithClick()">{{ i }}</button>
@@ -102,6 +102,8 @@ function SwapDivsWithClick() {
     </div>
   </form>
 </div>
+
+***
 
 <br>
 <div class="a" >

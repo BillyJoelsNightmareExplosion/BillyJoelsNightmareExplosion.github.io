@@ -68,9 +68,9 @@ comments:
   path: "_data/comments/{options.slug}"
 
 pizza_ratings:
-  allowedFields: ["rating", "message"]
+  allowedFields: ["rating", "name"]
   branch: "master"
-  commitMessage: "pizza rated {fields.rating}"
+  commitMessage: "{fields.name} rated pizza {fields.rating}"
   filename: "rated_{fields.rating}_{@timestamp}"
   format: "yaml"
   moderation: false
