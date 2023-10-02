@@ -103,6 +103,8 @@ function SwapDivsWithClick() {
   </form>
 </div>
 
+> **paitience:** it will literally take in excess of a minute for your submission to be reflected on this page 🍄☮🧿🪴🍵🫂🤲🏻🧘🏼‍♀️ 
+
 ***
 
 <br>
@@ -115,4 +117,19 @@ average rating of this pizza:
 </div>
 {% include left-right.html tag='p' left='▲ terrible' right ='7 ▲' %}
 
-> **paitience:** it will literally take in excess of a minute for your submission to be reflected on this page 🍄☮🧿🪴🍵🫂🤲🏻🧘🏼‍♀️ 
+
+<div class="a" >
+all ratings:
+</div>
+
+{% assign ratings = site.data.pizza_ratings %}
+{% for rating in ratings reversed %}
+{% assign ratingData = rating[1] %}
+
+{% if ratingData.name %}
+  > "{{ ratingData.name }}" rated this pizza: {{ ratingData.rating }}
+{% else %}
+  > an anonymous contributor rated this pizza: {{ ratingData.rating }}
+{% endif %}
+
+{% endfor %}
