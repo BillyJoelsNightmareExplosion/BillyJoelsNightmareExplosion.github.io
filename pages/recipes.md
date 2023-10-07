@@ -15,7 +15,6 @@ categories:
 - 1 tablespoon baking powder
     - if the batter bubbles that’s a good sign, too much doesn’t seem to hurt
 - ½ teaspoon salt
-- 1 tablespoon apple cider vinegar
 - 1 teaspoon vanilla
 - 230 g soymilk, water is less tasty but still fine (do slightly less)
 - do a lot butter in the pan for a crispy fatty top because life is short
