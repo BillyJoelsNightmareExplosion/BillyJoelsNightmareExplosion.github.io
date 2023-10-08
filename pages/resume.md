@@ -137,7 +137,7 @@ ul {
 
 {% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
 
-- Made all materials, lighting setups, rendered for print with the Unreal Movie Render Queue and path traced render.
+- Made all materials, lighting setups, rendered for print with the Unreal Movie Render Queue and path traced renderer.
 - Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester.
 - Car uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
 
