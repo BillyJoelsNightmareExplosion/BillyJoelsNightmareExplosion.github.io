@@ -129,7 +129,7 @@ Thanks for stopping by!
 <div>
 
 <div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<img class="projectTileFileGate" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/film-gate.png" style="width:auto;">
 <h1 class="projectTileFilmText">KODAK</h1>
 {% include youtube-embed.html src='https://www.youtube.com/embed/lVGSqY_PqnE' %}
 </div>
@@ -141,7 +141,7 @@ Thanks for stopping by!
 <!-- this tile uses an iframe instead of an image, and thus requires it's own unique definition below:  -->
 
 <div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<img class="projectTileFileGate" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/film-gate.png" style="width:auto;">
 <h1 class="projectTileFilmText"></h1>
 <h1 class="projectTileFilmText"></h1>
 <div class="projectTile">
@@ -155,7 +155,7 @@ Thanks for stopping by!
 </div>
 
 <div class="pj">
-<img class="projectTileFileGate" src="film-gate.png" style="width:auto;">
+<img class="projectTileFileGate" src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/film-gate.png" style="width:auto;">
 <h1 class="projectTileFilmText"> EI 200/24*</h1>
 <h1 class="projectTileFilmText"></h1>
 <div class="projectTile">
