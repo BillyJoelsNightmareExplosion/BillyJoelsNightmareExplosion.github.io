@@ -85,15 +85,6 @@ ul {
 </div>
 
 
-<!-- pfft im a good developer and I know this is bad this was test to see if you'd find it you win -->
-<div class="mobile-users-go-away">
-  <p style="text-align: right; display:block;">Tallahassee, FL</p>
-  <a style="text-align: right; display:block;" href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
-  <a style="text-align: right; display:block;" href="https://www.linkedin.com/in/alectremblay/">linkedin.com/in/alectremblay/</a>
-  <a style="text-align: right; display:block;" href="https://alectremblay.xyz/">alectremblay.xyz</a>
-  <p style="text-align: right; display:block;" >(954)-850-6057</p>
-</div>
-
 ## Education 
 
 {% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
@@ -146,7 +137,7 @@ ul {
 
 {% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
 
-- Made all materials, lighting setups, rendered for print with the Unreal Movie Render Queue.
+- Made all materials, lighting setups, rendered for print with the Unreal Movie Render Queue and path traced render.
 - Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester.
 - Car uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
 
@@ -154,11 +145,11 @@ ul {
 
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
 
-{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS' %}
+{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
 **Languages and Tools:** Python • C++/C and Java for school projects • Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Git/Github • Plastic SCM • Jira/Confluence (and Atlassian REST API) • Reality Capture • Davinci Resolve  
-**Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Ramen
+**Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
 *For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
 
