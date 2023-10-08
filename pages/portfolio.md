@@ -70,7 +70,7 @@ html, body {
   color: white;
   /* For browsers that do not support gradients */
   /* background-image: linear-gradient(#55646e, #c8c8c8 20%);  url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur.png'), */
-  background-image: url('film-grain.gif'), url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur_blur.png');
+  background-image: url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/film-grain.gif'), url('https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/blur_blur.png');
   background-blend-mode: overlay;
   background-attachment: fixed, fixed;
   background-size: 1400px, cover;
@@ -147,7 +147,7 @@ Thanks for stopping by!
 <div class="projectTile">
 <a href="/project/2023/01/17/website.html" class="fill-div">
 <iframe class="projectTileImage" src="/home" style="border:none;height:362px;scrollbar-width:none;  pointer-events: none;" ></iframe>
-<img src="1x1.png" style="width:100%;position:absolute">
+<img src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/1x1.png" style="width:100%;position:absolute">
 <h1 class="projectTileLabel">this website</h1>
 <i class="fa fa-external-link-square"></i>
 </a>
@@ -161,7 +161,7 @@ Thanks for stopping by!
 <div class="projectTile">
 <a href="https://fsu.devlup.org/posts/gbm-1-f23" class="fill-div">
 <iframe class="projectTileImage" src="https://fsu.devlup.org/posts/gbm-1-f23" style="border:none;height:362px;scrollbar-width:none;  pointer-events: none;" ></iframe>
-<img src="1x1.png" style="width:100%;position:absolute">
+<img src="https://raw.githubusercontent.com/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/_files/photos/portfolio/1x1.png" style="width:100%;position:absolute">
 <h1 class="projectTileLabel">DevLUp FSU website (my game dev club)</h1>
 <i class="fa fa-external-link-square"></i>
 </a>

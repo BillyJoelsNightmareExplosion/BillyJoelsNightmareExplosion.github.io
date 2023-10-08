@@ -7,9 +7,7 @@ categories: personal
 
 I haven't written anything yet. I can't imagine you would actually go here and think there would be something to read. There's nothing. You get nothing.
 
-<div class="videoWrapper">
-<iframe width="640" height="362" src="https://www.youtube.com/embed/T1XgFsitnQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-embed.html src='https://www.youtube.com/embed/T1XgFsitnQw' %}
 
 <style>
 body {
