@@ -109,7 +109,7 @@ ul {
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
 {% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months, full time)' %}
 
-- Worked in a team on designing and developing a pipeline for with Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
+- Worked in a team on designing and developing a pipeline for Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
 - Made a Jira task submission tool for Slack with Slack Bolt, Slack Block Kit and Atlassian’s REST API to reduce workload for producers for developer submitted tasks - developers can submit tasks through a Slack GUI app that will be sent to their producer and created automatically with one button press to approve the task.
 
 
