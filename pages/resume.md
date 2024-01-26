@@ -117,7 +117,7 @@ ul {
 {% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months, part time)' %}
 
 - Worked on an educational VR tour of Reims Cathedral for the Oculus Quest using Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
-- Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, moving lights, changing setups, fixing other issues, etc.
+- Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
 
 
 ## Projects
