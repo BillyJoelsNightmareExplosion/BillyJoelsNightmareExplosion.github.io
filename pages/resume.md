@@ -131,7 +131,7 @@ ul {
 
 {% include left-right.html tag='a' left='[4x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
 
-- Organized and produced three 3D games, each designed and produced in 48-72 hours.
+- Organized and produced four 3D games, each designed and produced in 48-72 hours.
 - Programmed character controllers, animation state machines, random spread weapons, effects spawning.
 - Made textures, materials, effects/particles, skeletal meshes and animations for characters and weapons.
 
