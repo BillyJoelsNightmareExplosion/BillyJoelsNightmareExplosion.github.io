@@ -81,7 +81,6 @@ ul {
     <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
   </span>
   <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
-  <p>(954)-850-6057</p>
 </div>
 
 
