@@ -108,7 +108,7 @@ ul {
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
 {% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months, full time)' %}
 
-- Worked in a team on designing and developing a pipeline for with Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
+- Worked in a team on designing and developing a pipeline for Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
 - Made a Jira task submission tool for Slack with Slack Bolt, Slack Block Kit and Atlassian’s REST API to reduce workload for producers for developer submitted tasks - developers can submit tasks through a Slack GUI app that will be sent to their producer and created automatically with one button press to approve the task.
 
 
@@ -116,7 +116,7 @@ ul {
 {% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months, part time)' %}
 
 - Worked on an educational VR tour of Reims Cathedral for the Oculus Quest using Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
-- Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, moving lights, changing setups, fixing other issues, etc.
+- Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
 
 
 ## Projects
@@ -128,9 +128,9 @@ ul {
 - Foam and bubbles appear when upset and dissipate when at rest.
 
 
-{% include left-right.html tag='a' left='[3x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
+{% include left-right.html tag='a' left='[4x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
 
-- Organized and produced three 3D games, each designed and produced in 48-72 hours.
+- Organized and produced four 3D games, each designed and produced in 48-72 hours.
 - Programmed character controllers, animation state machines, random spread weapons, effects spawning.
 - Made textures, materials, effects/particles, skeletal meshes and animations for characters and weapons.
 
@@ -147,9 +147,9 @@ ul {
 {% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
-**Languages and Tools:** Python • C++/C and Java for school projects • Autodesk Maya/MEL API • Unreal Engine materials and Blueprint • Blender • Git/Github • Plastic SCM • Jira/Confluence (and Atlassian REST API) • Reality Capture • Davinci Resolve  
+**Languages and Tools:** Python • C++/C/Java (school) • Autodesk Maya/MEL • Unreal Engine materials and Blueprint • Blender • Git/Github • Plastic SCM • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop  
 **Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
 *For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
 
-> if you're an employer looking at this post-application for a role, I may have sent you an edited or cut down version of this that was tailored to the role or your organization.
+> if you're an employer looking at this post-application for a role, my resume may have changed since it was sent to you
