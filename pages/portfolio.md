@@ -27,16 +27,13 @@ h1 {
   text-align: center;
   text-decoration: none;
   margin: 2px 2px;
-  transform: translate(0%, -10%);
-  transition: opacity 0.2s, scale 0.2s;
+  transform: scale(90%);
+  transition: opacity 0.2s, transform 0.2s;
 }
 
 .fa:hover {
   opacity: 0.8;
-  border-style: ridge;
-  border-radius: 10px;
-  padding: 8px; 
-  scale: 1.05;
+  transform: scale(100%);
   color: lightblue;
   border-color: lightblue;
 
