@@ -51,14 +51,13 @@ h1 {
   min-height: 100%;
   overflow-wrap: break-word;
 }
+</style> 
 
-</style>
 
-<!-- Add font awesome icons -->
-<h1>
-Alec Tremblay, Technical Artist
-<a href="https://www.linkedin.com/in/alectremblay/" class="fa fa-linkedin"></a>
-<a href="/resume" class="fa fa-resume">resume</a>
+<h1 style="display: flex; align-items: center; font-weight: normal;">
+  Alec Tremblay, Technical Artist
+  <a href="https://www.linkedin.com/in/alectremblay/" class="fa fa-linkedin" style="margin-left: 10px" ></a>
+  <a href="/resume" class="fa fa-resume">resume</a>
 </h1>
 
 <style>
