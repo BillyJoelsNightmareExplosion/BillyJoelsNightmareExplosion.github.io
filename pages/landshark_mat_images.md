@@ -7,6 +7,35 @@ date:   2023-01-17 20:55:28 -0500 # use ctrl+alt+t to insert time or go to comma
 categories: project
 ---
 
+
+<style>
+html {
+  background-color: #242424;
+}
+body, h1, a {
+  color: #ababa9;
+  filter: drop-shadow(#0d0d0c 0rem 0rem 10px);
+}
+.EmbedWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.EmbedWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+img, .EmbedWrapper, video {
+    clip-path: inset(0% 0% 0% 0% round 10px);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+</style>
+
 [back to the project page](/landshark)
 
 ---
