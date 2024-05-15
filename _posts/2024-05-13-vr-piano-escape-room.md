@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /vr_piano
 title: making a vr piano escape room puzzle and having ChatGPT do all the work
 date:   2024-05-13 09:11:17 -0500 # use ctrl+alt+t to insert time or go to command palette
 # the -0500 is the timezone offset for eastern time
@@ -173,13 +174,13 @@ With about two and half hours of work from the VR template project, in a complet
 
 {% include youtube-embed.html src='https://www.youtube.com/embed/P8nM2wA2Rkc?si=dvagGHM-Emkxjso0&amp;start=7' %}
 
-Was any of that code really that hard or complicated? No. Any kid finishing a CS degree should be able to write that... but not anywhere near as fast. All I all to do was think of how to solve the problem, and then I was done.
+Was any of that code really that hard or complicated? No. Any kid finishing a CS degree should be able to write that... but not anywhere near as fast. All I had to do was think of how to solve the problem, and then I was done.
 
 Also, Jacob, who managed the project, said this sounded like a banjo. Agreed! (Now it's all I can hear 😭)
 
 ## Prompt Engineer or Spaghetti Launcher?
 
-As I kept working on it, I added more little bits. Instead of offsetting the pitch of one sound, I found a GitHub repo of all of the sounds each piano key makes, and I had ChatGPT write a python script to convert their musical notation names to the indices of key so they could easily be assigned in the loop in the start function of the constructor (this one I remember ChatGPT actually being pretty bad at, because the naming convention was a little complicated, so I basically had to write most of that by hand). **From my experience, the more edge cases you ask ChatGPT to handle, the worse it does. Ask for the core algorithms and expect to have to implement the nuances yourself.**  
+As I kept working on it, I added more little bits. Instead of offsetting the pitch of one sound, I found a GitHub repo of all of the sounds each piano key makes, and I had ChatGPT write a python script to convert their musical notation names to the indices of key so they could easily be assigned in the loop in the start function of the constructor. This one I remember ChatGPT actually being pretty bad at, because the naming convention was a little complicated, so I basically had to write most of that by hand. **From my experience, the more edge cases you ask ChatGPT to handle, the worse it does. Ask for the core algorithms and expect to have to implement the nuances yourself.**  
 
 I also made it so it positioned the keys differently based off of them being sharps/flats -- if mod 12 equals (whichever numbers, i forgot), then offset differently and use the other of the two prefabs for each type of key -- and dip the key down when it's played and have it return, of course.  
 
@@ -207,7 +208,7 @@ Did I perhaps invent the worst musical notation format of all time? Even if I so
 
 And that's where I think I messed up: even though the initial conceit of this project was that I could make bad code as long as it worked, I think LLM reliant coding inadvertently encourages this, or at least it does for me. You just let the model write the implementation, not care if it writes something verbose or repetitive or repetitive or repetitive, and then realize you messed up when have to sew all of that together. That's totally not an LLM problem, that's just a poor design problem! That's the human's fault! The human needs to do better! I think that, when I'm writing code by hand, I get frustrated when I'm writing something that feels stupid, so I go and figure out how to do it better, that learning makes the work easier and makes me a better programmer.  
 
-**I'll argue that LLMs can teach you libraries, and they can show you how to solve problems, but they don't make you a better problem solver or a better programmer. They can really only leverage abilities you already have. When you use an LLM, you're not practicing, you're coaching. My intuition, should you choose to value it, is that if I lean too heavily on LLMs, I'll forget the nuances and stop growing as a developer.**
+**I'll argue that LLMs can teach you libraries, and they can show you how to solve problems, but they don't make you a better problem solver or a better programmer. They can really only leverage abilities you already have. When you use an LLM, you're not practicing, you're coaching. My intuition, should you choose to value it, is that if you lean too heavily on LLMs, you'll forget the nuances and stop growing as a developer.**
 
 So, I think that, my takeaway from this project was: yeah, I'll let the LLMs handle simple stuff. And I wouldn't have had the time to make this without it! But, as a consequence of that, I need to keep growing my skill set, keep working in different domains, and do so by hand to stay sharp.  
 

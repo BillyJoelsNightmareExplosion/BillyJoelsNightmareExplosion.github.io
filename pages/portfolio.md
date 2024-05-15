@@ -130,7 +130,7 @@ Thanks for stopping by!
 {% include youtube-embed.html src='https://www.youtube.com/embed/lVGSqY_PqnE' %}
 </div>
 
-{% for tile in site.data.tiles limit:3 %}
+{% for tile in site.data.tiles limit:4 %}
   {% include portfolio-tile.html film-text=tile.film-text label=tile.label href=tile.href img-src=tile.img-src %}
 {% endfor %}
 
@@ -165,6 +165,6 @@ Thanks for stopping by!
 </div>
 
 
-{% for tile in site.data.tiles offset:3 %}
+{% for tile in site.data.tiles offset:4 %}
   {% include portfolio-tile.html film-text=tile.film-text label=tile.label href=tile.href img-src=tile.img-src %}
 {% endfor %}
