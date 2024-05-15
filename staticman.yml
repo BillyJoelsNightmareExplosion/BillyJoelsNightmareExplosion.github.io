@@ -76,3 +76,13 @@ pizza_ratings:
   moderation: false
   name: "alectremblay.xyz"
   path: "_data/pizza_ratings/{options.slug}"
+
+button_presses:
+  allowedFields: ["post_id"]
+  branch: "master"
+  commitMessage: "{fields.post_id} got a button press!"
+  filename: "{@timestamp}_{fields.post_id}"
+  format: "yaml"
+  moderation: false
+  name: "alectremblay.xyz"
+  path: "_data/button_presses/{options.slug}"

@@ -103,7 +103,7 @@ function SwapDivsWithClick() {
   </form>
 </div>
 
-> **paitience:** it will literally take in excess of a minute for your submission to be reflected on this page 🍄☮🧿🪴🍵🫂🤲🏻🧘🏼‍♀️ 
+> **patience:** it will literally take in excess of a minute for your submission to be reflected on this page 🍄☮🧿🪴🍵🫂🤲🏻🧘🏼‍♀️ 
 
 ***
 
