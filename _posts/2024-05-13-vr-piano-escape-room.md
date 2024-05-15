@@ -69,13 +69,13 @@ Since scrolling is overrated, here's the final product. It's pretty rough around
 
 ## Why I Made This
 
-During my last semester of school, one of the ongoing projects conducted by the [Seminole Innovators](https://www.innovation.fsu.edu/seminole-innovators) was a VR escape experience called "S.I.T.N.E"[^1], that was displayed along with [my game club's](https://fsu.devlup.org) work at the [Seminole Innovators' Showcase](https://www.innovation.fsu.edu/sishowcase). The idea was that teams would each build escape rooms with unique themes and puzzles, and each room would be strung together by each having players find or obtain a battery in the level to use to power an elevator to progress to the next room, collectively making a singular escape experience. Escape House? That's a better name, JACOB.  
+During my last semester of school, one of the ongoing projects conducted by the [Seminole Innovators](https://www.innovation.fsu.edu/seminole-innovators) was a VR escape experience called "S.I.T.N.E"[^1], that was displayed along with [my game club's](https://fsu.devlup.org) work at the [Seminole Innovators' Showcase](https://www.innovation.fsu.edu/sishowcase). The idea was that teams would each build escape rooms with unique themes and puzzles, and each room would be strung together by each having players find or obtain a battery in the level to use to power an elevator to progress to the next room, collectively making a singular escape experience. Escape House? That's a better name, JACOB!  
 
 The team I was assigned to decided on making a "Spooky Composer Room", where we had the idea of a dead classical composer who hid musical messages in letters to his lover, and players would have decode those musical motifs and play them on a piano to escape. This would have been really cool, but I was the only one who showed up to subsequent meetings to actually make the room, so all of that ended up being a bit out of scope. While I was busy with the semester and should have wisely given up like the rest of my team, I still tried to make the whole room by myself.  
 
 So, the video above is what I made. It has a few basically arbitrary puzzles, that consist of matching the drawings of blocks (representing keys) to a sequence of notes denoted by a red letter carved on to each key (which beautifully omits any of the charming storytelling we aspired to earlier). The puzzles are to play along with the bass notes for Fur Elise and Midnight Sonata and add the leading lines; music I hoped everyone would find familiar and fun to complete.
 
-**Do I include a bit about being a musician?**
+Unfortunately, during the actual event, people found the room a little confusing, and I'm only aware of one person solving it without any help. I made the diagrams in maybe an hour or two and didn't run the design by anybody first. I thought that lining up the physical keys with the diagrams would've been obvious, but it was major point of confusion. At the very least, once players understood that idea, they seemed to be able to solve the rest of the room. I'd like to think I'd have made something more intuitive if I had more time and someone to test the room - highlighting keys or having the motif play itself to tutorialize would've been easily doable.
 
 ## ChatGPT or: How I Learned to Stop Worrying and Love the Model
 
@@ -173,21 +173,23 @@ With about two and half hours of work from the VR template project, in a complet
 
 {% include youtube-embed.html src='https://www.youtube.com/embed/P8nM2wA2Rkc?si=dvagGHM-Emkxjso0&amp;start=7' %}
 
-Was any of that code really that hard or complicated? No. Any kid finishing a CS degree should be able to write that. But, I don't think it would've came together anywhere near as fast. All I all to do was think of how to solve the problem, and then I was done.
+Was any of that code really that hard or complicated? No. Any kid finishing a CS degree should be able to write that... but not anywhere near as fast. All I all to do was think of how to solve the problem, and then I was done.
 
 Also, Jacob, who managed the project, said this sounded like a banjo. Agreed! (Now it's all I can hear 😭)
 
 ## Prompt Engineer or Spaghetti Launcher?
 
-As I kept working on it, I added more little bits. Instead of offsetting the pitch of one sound, I found a GitHub repo of all of the sounds each piano key makes, and I had ChatGPT write a python script to convert their musical notation names to the indices of key so they could easily be assigned in the loop in the start function of the constructor (this one I remember ChatGPT actually being pretty bad at, because the naming convention was a little complicated, so I basically had to write most of that by hand). **From my experience, the more edge cases you ask ChatGPT to handle, the worse it does. Ask for the core algorithims and expect to have to implement the nuances yourself.** I also made it so it positioned the keys differently based off of them being sharps/flats -- if mod 12 equals (whichever numbers, i forgot), then offset differently and use the other of the two prefabs for each type of key -- and dip the key down when it's played and have it return, of course.  
+As I kept working on it, I added more little bits. Instead of offsetting the pitch of one sound, I found a GitHub repo of all of the sounds each piano key makes, and I had ChatGPT write a python script to convert their musical notation names to the indices of key so they could easily be assigned in the loop in the start function of the constructor (this one I remember ChatGPT actually being pretty bad at, because the naming convention was a little complicated, so I basically had to write most of that by hand). **From my experience, the more edge cases you ask ChatGPT to handle, the worse it does. Ask for the core algorithms and expect to have to implement the nuances yourself.**  
 
-To make the actual puzzle logic, I made new class `PianoListener` that would just look at the end of the list of played keys every frame and see if it's motif (a list of key indicies) matched. If it did, it would trigger something with a interface `IPuzzleAction` to do something in the game. I basically told ChatGPT to make the interface, rather than letting it figure out how to use it. **Generally, you'll probably also have to consider reusabilty and scalbilty yourself, ChatGPT is only going to solve the problem your asking it to solve, not the problems you'll anticipate that you'll have.**  
+I also made it so it positioned the keys differently based off of them being sharps/flats -- if mod 12 equals (whichever numbers, i forgot), then offset differently and use the other of the two prefabs for each type of key -- and dip the key down when it's played and have it return, of course.  
+
+To make the actual puzzle logic, I made new class `PianoListener` that would just look at the end of the list of played keys every frame (obviously not performant, but remember the context) and see if it's motif (a list of key indicies) matched. If it did, it would trigger something with interface `IPuzzleAction` to do something in the game. I basically told ChatGPT to make an interface, rather than letting it decide whether or not to use one, because I already knew I wanted this to be a reusable and customizable component. **Generally, you'll probably also have to consider reusabilty and scalbilty yourself, ChatGPT is only going to solve the problem your asking it to solve, not the problems you'll anticipate that you'll have.**  
 
 In this clip below, along with all the further changes to the piano being implemented along with a model from SketchFab, `BoxPuzzleAction` moves a box up and plays an opening sound:
 
 {% include youtube-embed.html src='https://www.youtube.com/embed/63s5y2lU1FU?si=owLERJRIUEizQuo8&amp;start=8' %}
 
-After that, I realized you could do the same thing in reverse to effectively make a player piano:
+After that, I realized you could do effectively the same thing in reverse to make a piano player:
 
 > write a script for a unity gameobject that has a public list of ints called keys, a public double called spacing and has a public reference to a PianoParent, and calls  playKey on the PianoParent for each of ints in keys, delayed by spacing in milliseconds
 
@@ -197,17 +199,19 @@ The output of which is shown below playing a version of the Fur Elise bass notes
 
 Of course, if you're familiar with that piece, that's not really how it's supposed to sound. I did add the `PianoPlayer` that plays the rest of the song after you start it later, but the pretty obvious limitations of this system are that it didn't support chords, variable note lengths or rests; it just plays notes in equal intervals.  
 
-Because this whole project was a big dumb hack anyways, for Moonlight Sonata, I just made it so the bass chords are just two Players started on the same frame to get around that first limitation, and for the final lead note, I just added code that allowed the note index in a motif to be -1, where the Player would just do nothing. If you set the note length to some multiple of the tempo for the rest of the piece, and filled in with -1s, you could have some more granular note placement.  
+Because this whole project was a big dumb hack anyways, for Moonlight Sonata, I just made it so the bass chords are just two players started on the same frame to get around that first limitation, and for the final lead note, I just added code that allowed the note index in a motif to be -1, where the player would just do nothing. If you set the note length to some multiple of the tempo for the rest of the piece, and filled in with -1s, you could have some more granular note placement.  
 
 Did I perhaps invent the worst musical notation format of all time? Even if I somehow didn't, it certainly felt that way the entire time, because I had to transcribe all of the music manually! I spent a lot of time printing out midi note values and staring at piano roll videos and adding ints to lists, to the point where I think it wouldn't have been much harder to just build a really simple midi player.  
 
 ## Machine Learning, Human Learned
 
-That's where I think I messed up: even though the initial conceit of this project was that I could make bad code as long as it worked, I think LLM reliant coding lets you think that way; at least it does for me (I'm lazy). You just let the model write the implementation, not care if it writes something verbose or repetitive or repetitive or repetitive, and then realize you messed up have to sew all of that together. That's totally not an LLM problem, that's just a poor design problem! That's the human's fault! I think that, when I'm writing code by hand, I get frustrated when I'm writing something that feels stupid, so I go and figure out how to do it better, that learning makes the work easier and makes me a better programmer.  
+And that's where I think I messed up: even though the initial conceit of this project was that I could make bad code as long as it worked, I think LLM reliant coding inadvertently encourages this, or at least it does for me. You just let the model write the implementation, not care if it writes something verbose or repetitive or repetitive or repetitive, and then realize you messed up when have to sew all of that together. That's totally not an LLM problem, that's just a poor design problem! That's the human's fault! The human needs to do better! I think that, when I'm writing code by hand, I get frustrated when I'm writing something that feels stupid, so I go and figure out how to do it better, that learning makes the work easier and makes me a better programmer.  
 
-**I'll argue that LLMs can teach you libraries, they can show you different approaches to problems you haven't seen, but they don't make you a better problem solver or a better programmer. They can really only leverage abilities you already have. When you use an LLM, you're not practicing, you're coaching. I have no evidence to back this up, but my intuition is that if I lean too heavily on LLMs, I'll forget the nuances and stop growing as a developer.**
+**I'll argue that LLMs can teach you libraries, and they can show you how to solve problems, but they don't make you a better problem solver or a better programmer. They can really only leverage abilities you already have. When you use an LLM, you're not practicing, you're coaching. My intuition, should you choose to value it, is that if I lean too heavily on LLMs, I'll forget the nuances and stop growing as a developer.**
 
-So, I think that, my takeaway from this project was: yeah, I'll let the LLMs handle simple stuff. And I wouldn't have had the time to make this without it! But, as a consequence of that, I need to keep growing my skill set with harder projects in different domains, and do those by hand to stay sharp.
+So, I think that, my takeaway from this project was: yeah, I'll let the LLMs handle simple stuff. And I wouldn't have had the time to make this without it! But, as a consequence of that, I need to keep growing my skill set, keep working in different domains, and do so by hand to stay sharp.  
+
+And stop throwing spaghetti at the wall. That ought to help.
 
 <style>
 .button {
