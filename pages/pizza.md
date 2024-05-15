@@ -88,6 +88,7 @@ function SwapDivsWithClick() {
 <div class="pizzaForm">  
   <form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/pizza_ratings">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+    <input type="hidden" name="options[redirect]" value="https://alectremblay.xyz/input_received/">
     <div class="a" >
     enter your name:
     </div>

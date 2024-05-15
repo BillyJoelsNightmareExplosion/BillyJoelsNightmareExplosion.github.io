@@ -248,9 +248,8 @@ So, I think that, my takeaway from this project was: yeah, I'll let the LLMs han
 
 <form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/button_presses">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <div class="a" >
-    <button type="submit" name="fields[post_id]" value="vr_piano" class="button" onclick="SwapDivsWithClick()"> This Button Has Been Pressed {{ press_count }} {{ times }}</button>
-  </div>
+  <input type="hidden" name="options[redirect]" value="https://alectremblay.xyz/i_pressed_the_button">
+  <button  name="fields[post_id]" value="vr_piano" class="button">This Button Has Been Pressed {{ press_count }} {{ times }}</button>
 </form>
 
 
