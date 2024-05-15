@@ -205,7 +205,7 @@ Did I perhaps invent the worst musical notation format of all time? Even if I so
 
 That's where I think I messed up: even though the initial conceit of this project was that I could make bad code as long as it worked, I think LLM reliant coding lets you think that way; at least it does for me (I'm lazy). You just let the model write the implementation, not care if it writes something verbose or repetitive or repetitive or repetitive, and then realize you messed up have to sew all of that together. That's totally not an LLM problem, that's just a poor design problem! That's the human's fault! I think that, when I'm writing code by hand, I get frustrated when I'm writing something that feels stupid, so I go and figure out how to do it better, that learning makes the work easier and makes me a better programmer.  
 
-**I'll argue that LLMs can teach you libraries, they can show you different approaches to problems you haven't seen, but they don't make you a better problem solver or a better programmer. They can really only leverage abilities you already have. When you use an LLM, you're not practicing, you're coaching. I have no evidence to back this up, but my intuition is that if I lean too heavily on LLMs, I'll forget the nuances and stop growing as a developer.**#6e70a3;
+**I'll argue that LLMs can teach you libraries, they can show you different approaches to problems you haven't seen, but they don't make you a better problem solver or a better programmer. They can really only leverage abilities you already have. When you use an LLM, you're not practicing, you're coaching. I have no evidence to back this up, but my intuition is that if I lean too heavily on LLMs, I'll forget the nuances and stop growing as a developer.**
 
 So, I think that, my takeaway from this project was: yeah, I'll let the LLMs handle simple stuff. And I wouldn't have had the time to make this without it! But, as a consequence of that, I need to keep growing my skill set with harder projects in different domains, and do those by hand to stay sharp.
 
@@ -235,15 +235,21 @@ So, I think that, my takeaway from this project was: yeah, I'll let the LLMs han
 {% assign press_count = 0 %}
 {% assign presses = site.data.button_presses %}
 {% for press in presses %}
-  {% if press.post_id == "vr_piano" %}
+{% assign pressData = press[1] %}
+  {% if pressData.post_id == "vr_piano" %}
     {% assign press_count = press_count | plus: 1 %}
   {% endif %}
 {% endfor %}
 
+{% assign times = "Times" %}
+{% if press_count == 1 %}
+  {% assign times = "Time" %}
+{% endif %}
+
 <form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/button_presses">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <div class="a" >
-    <button type="submit" name="fields[post_id]" value="vr_piano" class="button" onclick="SwapDivsWithClick()">{{ press_count }} People Have Pressed This Button</button>
+    <button type="submit" name="fields[post_id]" value="vr_piano" class="button" onclick="SwapDivsWithClick()"> This Button Has Been Pressed {{ press_count }} {{ times }}</button>
   </div>
 </form>
 

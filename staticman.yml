@@ -85,4 +85,4 @@ button_presses:
   format: "yaml"
   moderation: false
   name: "alectremblay.xyz"
-  path: "_data/button_presses/{options.slug}"
+  path: "_data/button_presses"
