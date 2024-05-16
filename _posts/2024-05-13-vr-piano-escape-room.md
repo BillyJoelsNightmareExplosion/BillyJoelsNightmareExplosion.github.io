@@ -216,7 +216,7 @@ And stop throwing spaghetti at the wall. That ought to help.
 
 <style>
 .button {
-  cursor: grab;
+  cursor: pointer;
   border-style: solid;
   display: block;
   margin-left: auto;
