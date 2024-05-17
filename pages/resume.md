@@ -59,7 +59,7 @@ ul {
 @media screen and (min-width: 750px) {
   .mobile-users-go-away {display: none;}
 }
-.fa-linkedin {
+.linkIcon {
   color: white;
   background-color: #519aba;
   border-style: solid;
@@ -77,7 +77,7 @@ ul {
   <p>Tallahassee, FL</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <span>
-    <p class="fa fa-linkedin">  </p>
+    <p class="fa fa-linkedin linkIcon">  </p>
     <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
   </span>
   <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
@@ -87,7 +87,7 @@ ul {
 ## Education 
 
 {% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='Bachelor’s of Science, Computer Science, Math Minor (3.5/4.0 GPA)' right='Aug 2020 - May 2024' %}
+{% include left-right.html tag='p' left='Bachelor’s of Science, Computer Science, Math Minor (3.5/4.0 GPA)' right='Aug 2020 - June 2024' %}
 
 
 ## Experience & Professional Development
@@ -128,11 +128,11 @@ ul {
 - Foam and bubbles appear when upset and dissipate when at rest.
 
 
-{% include left-right.html tag='a' left='[4x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
+{% include left-right.html tag='a' left='[5x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
 
-- Organized and produced four 3D games, each designed and produced in 48-72 hours.
+- Organized and produced five 3D games, each designed and produced in 48-72 hours.
 - Programmed character controllers, animation state machines, random spread weapons, effects spawning.
-- Made textures, materials, effects/particles, skeletal meshes and animations for characters and weapons.
+- Made textures, materials, effects/particles, skeletal meshes and animations for characters, weapons and environments.
 
 {% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
 
@@ -144,10 +144,10 @@ ul {
 
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
 
-{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, Github Pages, AWS Lambda, Github Actions' %}
+{% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
-**Languages and Tools:** Python • C++/C/C#/Java (for school projects) • Autodesk Maya/MEL • Unreal Engine materials and Blueprint • Blender • Git/Github • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop  
+**Languages and Tools:** Python • C++/C/C#/Java (for school projects) • Autodesk Maya/MEL • Unreal Engine Materials, Blueprint, Sequencer • Blender • Git/Github • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop  
 **Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
 *For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
