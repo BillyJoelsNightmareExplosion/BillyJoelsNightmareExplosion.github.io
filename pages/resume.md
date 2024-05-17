@@ -59,7 +59,7 @@ ul {
 @media screen and (min-width: 750px) {
   .mobile-users-go-away {display: none;}
 }
-.linkIcon {
+.fa-linkedin {
   color: white;
   background-color: #519aba;
   border-style: solid;
@@ -77,7 +77,7 @@ ul {
   <p>Tallahassee, FL</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <span>
-    <p class="fa fa-linkedin linkIcon">  </p>
+    <p class="fa fa-linkedin">  </p>
     <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
   </span>
   <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
