@@ -99,36 +99,36 @@ ul {
 ## Education 
 
 {% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='Bachelor’s of Science, Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
+{% include left-right.html tag='p' left='B.S. Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
 
 
 ## Experience & Professional Development
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
 {% include left-right.html tag='p' left='Technical Artist Intern' right='May 2023 - Aug 2023 (4 months)' %}
 
-- Designed and wrote tools and automations in Python for Autodesk Maya with PyQt/Pyside2 GUI, rewrote old tools to conform to modern coding standards and best practices.
-- Developed a tool that replaces Maya Shelf Editor with a custom, simplified UI and automates tool deployment across several supported Maya versions by converting redundant MEL to non-redundant JSON.
+- Wrote tools in Python for Autodesk Maya with PyQt/Pyside2 GUI
+- Rewrote old tools to conform to modern coding standards and best practices.
+- Developed a tool that replaces Maya Shelf Editor with a custom UI and pipelines tool deployment across several supported Maya versions.
 - Made user-facing documentation on Confluence.
 
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
 {% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months)' %}
 
-- Worked in a team on designing and developing a pipeline for Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
-- Made a Jira task submission tool for Slack with Slack Bolt, Slack Block Kit and Atlassian’s REST API to reduce workload for producers for developer submitted tasks - developers can submit tasks through a Slack GUI app that will be sent to their producer and created automatically with one button press to approve the task.
-
+- Worked on designing and developing a pipeline for Unity and Unreal Engine in Python, version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
+- Made a Jira task submission UI in Slack with Slack Bolt and Atlassian’s REST API. Developers can submit tasks through Slack that will be sent to their producer and created automatically with one button press to approve the task.
 
 {% include left-right.html tag='h3' left='College of Motion Picture Arts, Florida State University' right='Tallahassee, FL' %}
 {% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months)' %}
 
-- Worked on an educational VR tour of Reims Cathedral for the Oculus Quest using Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
+- Developed a VR tour of Reims Cathedral for Oculus Quest in Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
 - Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
 
 {% include left-right.html tag='h3' left='FSU Game Development Club (DevLUp FSU)' right='Tallahassee, FL' %}
 {% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024 (10 months)' %}
 
-- Designed, organized and ran hands-on workshops on games programming, workflows, 3D art.
-- Developed a club website and began use of agile tasking to organize operations.
-- Hosted game jams (hackathons) and games industry recruiters to talk to members. 
+- Designed, organized and taught dozens of weekly hands-on workshops on games programming, workflows, 3D art.
+- Developed a club website and consistent brand identity.
+- Hosted game jams (hackathons) and games industry recruiters from Epic Games and PlayStation. 
 
 
 ## Projects
@@ -143,8 +143,8 @@ ul {
 {% include left-right.html tag='a' left='[5x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
 
 - Organized and produced five 3D games, each designed and produced in 48-72 hours.
-- Programmed character controllers, animation state machines, random spread weapons, effects spawning.
-- Made textures, materials, effects/particles, skeletal meshes and animations for characters, weapons and environments.
+- Programmed character controllers, animation state machines, random spread weapons, effects spawning and more.
+- Made textures, materials, effects/particles, models, skeletal animations, and music in various styles.
 
 {% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
 
