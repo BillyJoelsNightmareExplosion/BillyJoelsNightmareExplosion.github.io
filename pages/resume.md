@@ -12,6 +12,7 @@ categories:
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
 .w {
+  width: 65rem;
   font-family: 'Atkinson Hyperlegible', monospace;
   max-width: 100%;
   margin-bottom: 0;
@@ -44,20 +45,18 @@ ul {
   list-style: "> ";
   padding-left: 1.5rem;
  }
-.container {
+.links-for-desktop {
   display: flex;
-}
-.container.space-around {
   justify-content: space-around;
-} 
-.container.space-between {  
-  justify-content: space-between;
+}
+@media screen and (max-width: 70rem) {
+  .w {width: 90%;}
 }
 @media screen and (max-width: 750px) {
-  .container.space-around {display: none;}
+  .links-for-desktop {display: none;}
 }
 @media screen and (min-width: 750px) {
-  .mobile-users-go-away {display: none;}
+  .links-for-mobile {display: none;}
 }
 .fa-linkedin {
   color: white;
@@ -73,7 +72,7 @@ ul {
 
 # Alec Tremblay
 
-<div class="container space-around">
+<div class="links-for-desktop">
   <p>Tallahassee, FL</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <span>
@@ -84,39 +83,52 @@ ul {
 </div>
 
 
+<div class="links-for-mobile" style="text-align:center; line-height:2rem;">
+  <p>Tallahassee, FL</p>
+  <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
+  <br>
+  <span>
+    <p class="fa fa-linkedin">  </p>
+    <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
+  </span>
+  <br>
+  <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
+</div>
+
+
 ## Education 
 
 {% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='Bachelor’s of Science, Computer Science, Math Minor (3.5/4.0 GPA)' right='Aug 2020 - June 2024' %}
+{% include left-right.html tag='p' left='Bachelor’s of Science, Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
 
 
 ## Experience & Professional Development
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
-{% include left-right.html tag='p' left='Technical Artist Intern' right='May 2023 - Aug 2023 (4 months, full time)' %}
+{% include left-right.html tag='p' left='Technical Artist Intern' right='May 2023 - Aug 2023 (4 months)' %}
 
 - Designed and wrote tools and automations in Python for Autodesk Maya with PyQt/Pyside2 GUI, rewrote old tools to conform to modern coding standards and best practices.
 - Developed a tool that replaces Maya Shelf Editor with a custom, simplified UI and automates tool deployment across several supported Maya versions by converting redundant MEL to non-redundant JSON.
 - Made user-facing documentation on Confluence.
 
-{% include left-right.html tag='h3' left='DevLUp FSU (Game Development Club)' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='President' right='August 2023 - May 2024 (10 months, part time)' %}
-
-- Designed, organized and ran hands-on workshops on games programming, workflows, 3D art.
-- Developed a club website and began use of agile tasking to organize operations.
-- Hosted game jams (hackathons) and games industry recruiters to talk to members. 
-
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
-{% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months, full time)' %}
+{% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months)' %}
 
 - Worked in a team on designing and developing a pipeline for Unity and Unreal Engine development in Python with workflow-specific optimizations and automations for version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
 - Made a Jira task submission tool for Slack with Slack Bolt, Slack Block Kit and Atlassian’s REST API to reduce workload for producers for developer submitted tasks - developers can submit tasks through a Slack GUI app that will be sent to their producer and created automatically with one button press to approve the task.
 
 
-{% include left-right.html tag='h3' left='Florida State University – College of Motion Picture Arts' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months, part time)' %}
+{% include left-right.html tag='h3' left='College of Motion Picture Arts, Florida State University' right='Tallahassee, FL' %}
+{% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months)' %}
 
 - Worked on an educational VR tour of Reims Cathedral for the Oculus Quest using Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
 - Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
+
+{% include left-right.html tag='h3' left='FSU Game Development Club (DevLUp FSU)' right='Tallahassee, FL' %}
+{% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024 (10 months)' %}
+
+- Designed, organized and ran hands-on workshops on games programming, workflows, 3D art.
+- Developed a club website and began use of agile tasking to organize operations.
+- Hosted game jams (hackathons) and games industry recruiters to talk to members. 
 
 
 ## Projects
