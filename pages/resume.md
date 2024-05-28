@@ -170,7 +170,7 @@ ul {
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
-**Languages and Tools:** Python • C++/C/C#/Java (for school projects) • Autodesk Maya/MEL • Unreal Engine Materials, Blueprint, Sequencer • Blender • Git/Github • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop • Reaper  
+**Languages and Tools:** Python • for school projects: C++/C/C#(Unity and .NET Maui)/Java • Autodesk Maya/MEL • Unreal Engine Materials, Blueprint, Sequencer • Blender • Git/Github • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop • Reaper  
 **Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
 *For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
