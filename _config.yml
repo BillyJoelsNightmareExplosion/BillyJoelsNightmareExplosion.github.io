@@ -18,16 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alec Tremblay
+title: Alec Tremblay's Personal Website
 email: tremblayalec14@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal website.
-  If you're here to evaluate my work and experience, take a look at my <a href="/portfolio">portfolio</a>.
-  Otherwise, I write stuff and film stuff and make music and food and probably
-  other things. So, I'm gonna try to put my stuff here so I can stand back and look at it
-  while no one visits so I can be content and alone. Come to think of it,
-  I can't stand back too far or else I'll have to make the text scaling larger.
-  It's probably for the best that I stay seated.
+  Alec doesn't really need one of these dust-cover biographies in this stage of life,
+  but what else is supposed to go here? Alec likes to tell stories, make pretty pictures, songs,
+  and the best garlic knots you'll ever get for free. He went to college to direct movies,
+  but decided to learn to program to make visual effects and video games upon realizing he was
+  just smart enough to figure it out. He is currently finishing his final semester at Florida State
+  University, and will have a new favorite thing in approximately five minutes and can't wait to
+  tell you about it.
+  <br><br>
+  When he's not writing in third person, he's cooking with his mom on FaceTime, staring at 
+  objects and thinking about how he'd make them in Blender, and taking longer to get dressed than
+  you'd expect. And writing in first person.
+  <br><br>
+  If you're here to evaluate my work and experience, take a look at my
+  <a href="/resume">resume</a> and <a href="/portfolio">portfolio</a>.
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://alectremblay.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 

@@ -58,6 +58,17 @@ ul {
 @media screen and (min-width: 750px) {
   .links-for-mobile {display: none;}
 }
+@media print
+{   
+    .w
+    {
+      width: 92%;
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
 .fa-linkedin {
   color: white;
   background-color: #519aba;
@@ -83,7 +94,7 @@ ul {
 </div>
 
 
-<div class="links-for-mobile" style="text-align:center; line-height:2rem;">
+<div class="links-for-mobile no-print" style="text-align:center; line-height:2rem;">
   <p>Tallahassee, FL</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <br>
@@ -99,14 +110,14 @@ ul {
 ## Education 
 
 {% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='B.S. Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
+{% include left-right.html tag='p' left='BS, Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
 
 
 ## Experience & Professional Development
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
-{% include left-right.html tag='p' left='Technical Artist Intern' right='May 2023 - Aug 2023 (4 months)' %}
+{% include left-right.html tag='p' left='Technical Artist Intern (Tools/Pipeline)' right='May 2023 - Aug 2023 (4 months)' %}
 
-- Wrote tools in Python for Autodesk Maya with PyQt/Pyside2 GUI
+- Wrote tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
 - Rewrote old tools to conform to modern coding standards and best practices.
 - Developed a tool that replaces Maya Shelf Editor with a custom UI and pipelines tool deployment across several supported Maya versions.
 - Made user-facing documentation on Confluence.
@@ -126,8 +137,8 @@ ul {
 {% include left-right.html tag='h3' left='FSU Game Development Club (DevLUp FSU)' right='Tallahassee, FL' %}
 {% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024 (10 months)' %}
 
-- Designed, organized and taught dozens of weekly hands-on workshops on games programming, workflows, 3D art.
-- Developed a club website and consistent brand identity.
+- Designed, organized and taught dozens of weekly hands-on workshops on programming, math, 3D art and animation.
+- Developed a club website and grew attendance with blog posts, Discord and Instagram.
 - Hosted game jams (hackathons) and games industry recruiters from Epic Games and PlayStation. 
 
 
@@ -159,7 +170,7 @@ ul {
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
-**Languages and Tools:** Python • C++/C/C#/Java (for school projects) • Autodesk Maya/MEL • Unreal Engine Materials, Blueprint, Sequencer • Blender • Git/Github • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop  
+**Languages and Tools:** Python • C++/C/C#/Java (for school projects) • Autodesk Maya/MEL • Unreal Engine Materials, Blueprint, Sequencer • Blender • Git/Github • Jira/Confluence/Atlassian REST API • Reality Capture • Davinci Resolve • Photoshop • Reaper  
 **Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso/Abstract Latte Art • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
 *For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
