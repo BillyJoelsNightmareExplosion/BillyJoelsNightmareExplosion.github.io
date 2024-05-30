@@ -322,6 +322,8 @@ function getRandomArbitrary(min, max) {
 function newRain() {
   this.x = Math.random() * w;
   this.y = Math.random() * h;
+  this.w = getRandomArbitrary(0, 1);
+  this.h = getRandomArbitrary(0, 40);
 }
 
 var draw = function() {
@@ -333,9 +335,9 @@ var draw = function() {
 
     ctx.beginPath();
     ctx.fillStyle = 'white';
-    ctx.fillRect(r.x, r.y, getRandomArbitrary(0, 1), getRandomArbitrary(0, 40));
+    ctx.fillRect(r.x, r.y, r.w, r.h);
 
-    r.y = r.y + (10 * Math.random());
+    r.y = r.y + (0.5 * (r.h));
 
     if(r.y > h + 20) {
       r.y = -20;
