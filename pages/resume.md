@@ -169,7 +169,7 @@ ul {
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
-**Languages:** Python • MEL • C++/C • C# with .NET Maui (XAML) • Java  
+**Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java  
 **Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Photoshop • Autodesk Maya • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper  
 **Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
