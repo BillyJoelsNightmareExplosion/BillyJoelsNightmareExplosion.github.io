@@ -42,7 +42,7 @@ a {
 ul {
   display: block;
   line-height: 16px;
-  list-style: "> ";
+  list-style: "- ";
   padding-left: 1.5rem;
  }
 .links-for-desktop {
@@ -107,12 +107,6 @@ ul {
 </div>
 
 
-## Education 
-
-{% include left-right.html tag='h3' left='(Ongoing) Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='BS, Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
-
-
 ## Experience & Professional Development
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
 {% include left-right.html tag='p' left='Technical Artist Intern (Tools/Pipeline)' right='May 2023 - Aug 2023 (4 months)' %}
@@ -140,6 +134,11 @@ ul {
 - Designed, organized and taught dozens of weekly hands-on workshops on programming, math, 3D art and animation.
 - Developed a club website and grew attendance with blog posts, Discord and Instagram.
 - Hosted game jams (hackathons) and games industry recruiters from Epic Games and PlayStation. 
+
+## Education 
+
+{% include left-right.html tag='h3' left='Florida State University' right='Tallahassee, FL' %}
+{% include left-right.html tag='p' left='BS, Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
 
 
 ## Projects
