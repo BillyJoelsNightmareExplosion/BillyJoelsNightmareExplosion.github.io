@@ -84,7 +84,7 @@ ul {
 # Alec Tremblay
 
 <div class="links-for-desktop">
-  <p>Tallahassee, FL</p>
+  <p>Park City, UT</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <span>
     <p class="fa fa-linkedin">  </p>
@@ -143,6 +143,12 @@ ul {
 
 ## Projects
 
+{% include left-right.html tag='a' left='["Latte Rorschach Test" Website](https://github.com/Dominic-Miller/Latte-Rorschach)' right='Python, Django, HTML/CSS, SQLite3' %}
+
+- Developed a web application using Django in a team, designing and implementing the front-end with HTML/CSS.
+- Defined server-side data structures and admin interface configuration for user content.
+- Implemented database actions handling user submissions.
+
 {% include left-right.html tag='a' left='[Physics-Driven Liquid Beer in Unreal Engine 5](https://alectremblay.xyz/landshark)' right='Unreal Engine 5, Blender, Photoshop' %}
 
 - Blueprint script calculates liquid surface position/normal and “turbulence” from bottle movement and rotation, sends to material.
@@ -156,12 +162,6 @@ ul {
 - Programmed character controllers, animation state machines, random spread weapons, effects spawning and more.
 - Made textures, materials, effects/particles, models, skeletal animations, and music in various styles.
 
-{% include left-right.html tag='a' left='[Mazda RX-8 Racecar in Unreal Engine 4](https://alectremblay.xyz/rx8)' right='Unreal Engine 5, Blender, Photoshop' %}
-
-- Made all materials, lighting setups, rendered for print with the Unreal Movie Render Queue and path traced renderer.
-- Types of surfaces include matte and shiny vinyl stickers, moulded race tires, carbon fiber, cloth/polyester.
-- Car uses material layers, with a decal sheet to reduce texture size while maintaining high fidelity.
-
 {% include left-right.html tag='a' left='[Maya Procedural Snowman Creation Tool](https://devlup.org/projects/410635808345686016/view/procedural-snowman-in-maya-with-python)' right='Python, Maya.cmds API' %}
 
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
@@ -169,7 +169,7 @@ ul {
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
-**Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java  
+**Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java • SQL  
 **Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Photoshop • Autodesk Maya • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper  
 **Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
