@@ -143,12 +143,6 @@ ul {
 
 ## Projects
 
-{% include left-right.html tag='a' left='["Latte Rorschach Test" Website](https://github.com/Dominic-Miller/Latte-Rorschach)' right='Python, Django, HTML/CSS, SQLite3' %}
-
-- Developed a web application using Django in a team, designing and implementing the front-end with HTML/CSS.
-- Defined server-side data structures and admin interface configuration for user content.
-- Implemented database actions handling user submissions.
-
 {% include left-right.html tag='a' left='[Physics-Driven Liquid Beer in Unreal Engine 5](https://alectremblay.xyz/landshark)' right='Unreal Engine 5, Blender, Photoshop' %}
 
 - Blueprint script calculates liquid surface position/normal and “turbulence” from bottle movement and rotation, sends to material.
@@ -165,6 +159,12 @@ ul {
 {% include left-right.html tag='a' left='[Maya Procedural Snowman Creation Tool](https://devlup.org/projects/410635808345686016/view/procedural-snowman-in-maya-with-python)' right='Python, Maya.cmds API' %}
 
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
+
+{% include left-right.html tag='a' left='["Latte Rorschach Test" Website](https://github.com/Dominic-Miller/Latte-Rorschach)' right='Python, Django, HTML/CSS, SQLite3' %}
+
+- Developed a web application using Django in a team, designing and implementing the front-end with HTML/CSS.
+- Defined server-side data structures and admin interface configuration for user content.
+- Implemented database actions handling user submissions.
 
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
