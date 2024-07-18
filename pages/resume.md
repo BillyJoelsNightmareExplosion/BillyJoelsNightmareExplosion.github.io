@@ -117,7 +117,7 @@ ul {
 - Made user-facing documentation on Confluence.
 
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
-{% include left-right.html tag='p' left='Pipeline Intern' right='May 2022 - Aug 2022 (4 months)' %}
+{% include left-right.html tag='p' left='Pipeline Developer Intern' right='May 2022 - Aug 2022 (4 months)' %}
 
 - Worked on designing and developing a pipeline for Unity and Unreal Engine in Python, version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
 - Made a Jira task submission UI in Slack with Slack Bolt and Atlassian’s REST API. Developers can submit tasks through Slack that will be sent to their producer and created automatically with one button press to approve the task.
