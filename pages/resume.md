@@ -109,7 +109,7 @@ ul {
 
 ## Experience & Professional Development
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
-{% include left-right.html tag='p' left='Technical Artist Intern (Tools/Pipeline)' right='May 2023 - Aug 2023 (4 months)' %}
+{% include left-right.html tag='p' left='Technical Artist Intern (Tools and Pipeline Developer)' right='May 2023 - Aug 2023 (4 months)' %}
 
 - Wrote tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
 - Rewrote old tools to conform to modern coding standards and best practices.
