@@ -111,22 +111,22 @@ ul {
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
 {% include left-right.html tag='p' left='Technical Artist Intern (Tools and Pipeline Developer)' right='May 2023 - Aug 2023 (4 months)' %}
 
-- Wrote tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
+- Developed tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
 - Rewrote old tools to conform to modern coding standards and best practices.
 - Developed a tool that replaces Maya Shelf Editor with a custom UI and pipelines tool deployment across several supported Maya versions.
-- Made user-facing documentation on Confluence.
+- Authored comprehensive user-facing documentation and tutorials on Confluence.
 
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
 {% include left-right.html tag='p' left='Pipeline Developer Intern' right='May 2022 - Aug 2022 (4 months)' %}
 
-- Worked on designing and developing a pipeline for Unity and Unreal Engine in Python, version control with Plastic SCM, build automation with Jenkins, Agile tasking and project management with Jira.
-- Made a Jira task submission UI in Slack with Slack Bolt and Atlassian’s REST API. Developers can submit tasks through Slack that will be sent to their producer and created automatically with one button press to approve the task.
+- Worked on designing and developing a pipeline for Unity and Unreal Engine in Python, version control with Plastic SCM, CI/CD with Jenkins, Agile tasking and project management with Jira.
+- Developed a Jira task submission UI in Slack with Slack Bolt and Atlassian’s REST API. Developers can submit tasks through Slack that will be sent to their producer and created automatically with one button press to approve the task.
 
 {% include left-right.html tag='h3' left='College of Motion Picture Arts, Florida State University' right='Tallahassee, FL' %}
 {% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months)' %}
 
 - Developed a VR tour of Reims Cathedral for Oculus Quest in Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
-- Helped construct and configure LED volume for virtual production and configure livelink Mo-Sys RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
+- Helped start FSU's virtual production program, by constructing and configuring an LED volume for virtual production and real-time motion tracked RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
 
 {% include left-right.html tag='h3' left='FSU Game Development Club (DevLUp FSU)' right='Tallahassee, FL' %}
 {% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024 (10 months)' %}
