@@ -11,17 +11,9 @@ permalink: /home
 html {
   background-color: #000026;
   background-attachment: fixed;
-  background-image: linear-gradient(hsl(0, 0%, 10%), #000026, #40415c);
-}
-
-@keyframes candleFlicker {
-  0%   { text-shadow: 0 4px 10px hsl(30, 100%, 80%), 0 4px 20px hsl(30, 100%, 80%), 0 4px 30px hsl(30, 100%, 80%); }
-  30%  { text-shadow: 0 4px 10px hsl(30, 65%, 45%), 0 4px 20px hsl(30, 65%, 45%), 0 4px 30px hsl(30, 65%, 45%); }
-  75%  { text-shadow: 0 4px 10px hsl(30, 75%, 65%), 0 4px 20px hsl(30, 75%, 65%), 0 4px 30px hsl(30, 75%, 65%); }
-  80%  { text-shadow: 0 4px 10px hsl(30, 70%, 50%), 0 4px 20px hsl(30, 70%, 50%), 0 4px 30px hsl(30, 70%, 50%); }
-  85%  { text-shadow: 0 4px 10px hsl(30, 70%, 30%), 0 4px 20px hsl(30, 70%, 30%), 0 4px 30px hsl(30, 70%, 30%); }
-  87%  { text-shadow: 0 4px 10px hsl(30, 70%, 50%), 0 4px 20px hsl(30, 70%, 50%), 0 4px 30px hsl(30, 70%, 50%); }
-  100% { text-shadow: 0 4px 10px hsl(30, 100%, 80%), 0 4px 20px hsl(30, 100%, 80%), 0 4px 30px hsl(30, 100%, 80%); }
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/19/23/02/forest-5319107_960_720.png),
+            radial-gradient(ellipse at bottom, #40415c, transparent 70%), linear-gradient(#000026, #000026, #40415c);
 }
 
 h1, body {
@@ -55,7 +47,7 @@ canvas {
   top: -20px;
   filter: opacity(50%);
   -webkit-mask-image: -webkit-gradient(linear, left top, 
-  left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,1)));
+  left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0)));
 }
 </style>
 
