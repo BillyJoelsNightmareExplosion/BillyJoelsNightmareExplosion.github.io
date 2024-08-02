@@ -76,7 +76,7 @@ ul {
   border-color: #519aba;
   clip-path: inset(0% 0% 0% 0% round 4px);
 }
-
+{% include left-right-style.css %}
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
