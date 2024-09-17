@@ -84,7 +84,6 @@ ul {
 # Alec Tremblay
 
 <div class="links-for-desktop">
-  <p>Park City, UT</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <span>
     <p class="fa fa-linkedin">  </p>
@@ -95,7 +94,6 @@ ul {
 
 
 <div class="links-for-mobile no-print" style="text-align:center; line-height:2rem;">
-  <p>Tallahassee, FL</p>
   <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <br>
   <span>
@@ -168,11 +166,9 @@ ul {
 
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.com/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
-## Tools, Activities, Interests
+## Skills, Languages, Tools
+**Skills:** Software Engineering • Pipeline Design and Development • 3D Modeling, Animation, Shading, Lighting, Cinematics • Agile Producing • Documentation
 **Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java • SQL  
-**Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Jira • Confluence • ShotGrid • Photoshop • Autodesk Maya • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper  
-**Activities and Interests:** [Pizza!](https://alectremblay.com/pizza/) • Espresso • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
-
-*For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.com/pizza/)), explore [my site](https://alectremblay.com/)!*
+**Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Jira/Confluence • ShotGrid • Photoshop • Autodesk Maya • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper 
 
 > if you're an employer looking at this post-application for a role, my resume may have changed since it was sent to you
