@@ -34,7 +34,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   If you're here to evaluate my work and experience, take a look at my
   <a href="/resume">resume</a> and <a href="/portfolio">portfolio</a>.
 baseurl: # the subpath of your site, e.g. /blog
-url: "https://alectremblay.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://alectremblay.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme:  BillyJoelsNightmareExplosion/some-style-please  

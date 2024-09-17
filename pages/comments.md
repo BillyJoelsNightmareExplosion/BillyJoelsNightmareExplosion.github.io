@@ -16,7 +16,7 @@ leave a comment:
 
 <form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/comments">
 
-  <input name="options[redirect]" type="hidden" value="https://alectremblay.xyz">
+  <input name="options[redirect]" type="hidden" value="https://alectremblay.com">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <textarea name="fields[message]"></textarea>

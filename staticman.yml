@@ -43,7 +43,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "alectremblay.xyz"
+  name: "alectremblay.com"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -74,7 +74,7 @@ pizza_ratings:
   filename: "{@timestamp}_rated_{fields.rating}"
   format: "yaml"
   moderation: false
-  name: "alectremblay.xyz"
+  name: "alectremblay.com"
   path: "_data/pizza_ratings/{options.slug}"
 
 button_presses:
@@ -84,5 +84,5 @@ button_presses:
   filename: "{@timestamp}_{fields.post_id}"
   format: "yaml"
   moderation: false
-  name: "alectremblay.xyz"
+  name: "alectremblay.com"
   path: "_data/button_presses"

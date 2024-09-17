@@ -254,7 +254,7 @@ And stop throwing spaghetti at the wall. That ought to help.
 
 <form method="POST" action="https://ppnhpl5rh1.execute-api.us-east-2.amazonaws.com/prod/v2/entry/BillyJoelsNightmareExplosion/BillyJoelsNightmareExplosion.github.io/master/button_presses">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <input type="hidden" name="options[redirect]" value="https://alectremblay.xyz/i_pressed_the_button">
+  <input type="hidden" name="options[redirect]" value="https://alectremblay.com/i_pressed_the_button">
   <button  name="fields[post_id]" value="vr_piano" class="button">This Button Has Been Pressed {{ press_count }} {{ times }}</button>
 </form>
 

@@ -90,7 +90,7 @@ ul {
     <p class="fa fa-linkedin">  </p>
     <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
   </span>
-  <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
+  <a href="https://alectremblay.com/">alectremblay.com</a>
 </div>
 
 
@@ -103,7 +103,7 @@ ul {
     <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
   </span>
   <br>
-  <a href="https://alectremblay.xyz/">alectremblay.xyz</a>
+  <a href="https://alectremblay.com/">alectremblay.com</a>
 </div>
 
 
@@ -143,7 +143,7 @@ ul {
 
 ## Projects
 
-{% include left-right.html tag='a' left='[Physics-Driven Liquid Beer in Unreal Engine 5](https://alectremblay.xyz/landshark)' right='Unreal Engine 5, Blender, Photoshop' %}
+{% include left-right.html tag='a' left='[Physics-Driven Liquid Beer in Unreal Engine 5](https://alectremblay.com/landshark)' right='Unreal Engine 5, Blender, Photoshop' %}
 
 - Blueprint script calculates liquid surface position/normal and “turbulence” from bottle movement and rotation, sends to material.
 - Material creates masks with custom render layer and position information to shade liquid, the liquid surface, and glass differently on one mesh, with a sine material function to make the liquid surface appear non-planar.
@@ -166,13 +166,13 @@ ul {
 - Defined server-side data structures and admin interface configuration for user content.
 - Implemented database actions handling user submissions.
 
-{% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.xyz/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
+{% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.com/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Tools, Activities, Interests
 **Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java • SQL  
 **Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Jira • Confluence • ShotGrid • Photoshop • Autodesk Maya • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper  
-**Activities and Interests:** [Pizza!](https://alectremblay.xyz/pizza/) • Espresso • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
+**Activities and Interests:** [Pizza!](https://alectremblay.com/pizza/) • Espresso • Filmmaking, Cinematography/Photography • Racecars • Hiking • Guitar/Songwriting
 
-*For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.xyz/pizza/)), explore [my site](https://alectremblay.xyz/)!*
+*For other "selected works"/personal musings (seriously, [pizza](https://alectremblay.com/pizza/)), explore [my site](https://alectremblay.com/)!*
 
 > if you're an employer looking at this post-application for a role, my resume may have changed since it was sent to you
