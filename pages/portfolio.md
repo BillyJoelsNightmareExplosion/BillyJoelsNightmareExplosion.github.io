@@ -55,7 +55,7 @@ h1 {
 
 
 <h1 style="display: flex; align-items: center; font-weight: normal;">
-  Alec Tremblay, Technical Artist
+  Alec Tremblay's Portfolio
   <a href="https://www.linkedin.com/in/alectremblay/" class="fa fa-linkedin" style="margin-left: 10px" ></a>
   <a href="/resume" class="fa fa-resume">resume</a>
 </h1>
