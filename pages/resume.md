@@ -111,9 +111,9 @@ ul {
 {% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
 {% include left-right.html tag='p' left='Technical Artist Intern (Tools and Pipeline Developer)' right='May 2023 - Aug 2023 (4 months)' %}
 
-- Developed tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
+- Programmed pipeline and tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
 - Rewrote old tools to conform to modern coding standards and best practices.
-- Developed a tool that replaces Maya Shelf Editor with a custom UI and pipelines tool deployment across several supported Maya versions.
+- Designed a tool that replaces Maya Shelf Editor with a custom UI and pipelines tool deployment across several supported Maya versions.
 - Authored comprehensive user-facing documentation and tutorials on Confluence.
 
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
@@ -132,7 +132,7 @@ ul {
 {% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024 (10 months)' %}
 
 - Designed, organized and taught dozens of weekly hands-on workshops on programming, math, 3D art and animation.
-- Developed a club website and grew attendance with blog posts, Discord and Instagram.
+- Created a club website and grew attendance with blog posts, Discord and Instagram.
 - Hosted game jams (hackathons) and games industry recruiters from Epic Games and PlayStation. 
 
 ## Education 
@@ -150,9 +150,9 @@ ul {
 - Foam and bubbles appear when upset and dissipate when at rest.
 
 
-{% include left-right.html tag='a' left='[5x Game Jams](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
+{% include left-right.html tag='a' left='[5x Game Jams (Production, Development)](https://alectrem.itch.io)' right='Godot Engine(gdscript) and Unreal Engine 4(Blueprint), Git/Plastic SCM, Blender/Maya, Photoshop' %}
 
-- Organized and produced five 3D games, each designed and produced in 48-72 hours.
+- Coordinated production for five 3D games, each designed and produced in 48-72 hours.
 - Programmed character controllers, animation state machines, random spread weapons, effects spawning and more.
 - Made textures, materials, effects/particles, models, skeletal animations, and music in various styles.
 
