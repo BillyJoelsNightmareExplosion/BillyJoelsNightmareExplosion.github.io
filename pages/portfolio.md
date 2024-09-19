@@ -60,6 +60,8 @@ h1 {
   <a href="/resume" class="fa fa-resume">resume</a>
 </h1>
 
+<div class="gradient-overlay"></div>
+
 <style>
 html, body {
   min-height: 100%;
@@ -72,6 +74,16 @@ html, body {
   background-size: 1400px, cover;
   background-position: center center; 
 
+}
+.gradient-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.5));
+    mix-blend-mode: overlay;
+    pointer-events: none;
 }
 h1 {
   color: white;
