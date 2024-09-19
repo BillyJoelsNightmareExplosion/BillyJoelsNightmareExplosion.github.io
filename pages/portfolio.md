@@ -72,7 +72,8 @@ html, body {
   background-blend-mode: overlay;
   background-attachment: fixed, fixed;
   background-size: 1400px, cover;
-  background-position: center center; 
+  background-position: center center;
+  background-repeat: no-repeat;
 
 }
 .gradient-overlay {
