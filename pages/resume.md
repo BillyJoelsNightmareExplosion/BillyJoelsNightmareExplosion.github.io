@@ -167,8 +167,8 @@ ul {
 {% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.com/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Skills, Languages, Tools
-**Skills:** Software Engineering • Pipeline Design and Development • 3D Modeling, Animation, Shading, Lighting, Cinematics • Agile Producing • Documentation  
+**Skills:** Software Engineering • Pipeline Design and Development • 3D Modeling, Texturing, Shading, Animation, Lighting, Cinematics • Agile Producing • Documentation  
 **Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java • SQL  
-**Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Jira/Confluence • ShotGrid • Photoshop • Autodesk Maya • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper 
+**Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Jira/Confluence • ShotGrid • Photoshop • Autodesk Maya • Substance Painter • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper 
 
 > if you're an employer looking at this post-application for a role, my resume may have changed since it was sent to you
