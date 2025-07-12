@@ -84,12 +84,13 @@ ul {
 # Alec Tremblay
 
 <div class="links-for-desktop">
-  <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
+    <p>(954)-850-6057</p>
+
+    <a href="mailto:tremblayalec14@gmail.com">tremblayalec14@gmail.com</a>
   <span>
     <p class="fa fa-linkedin">  </p>
     <a href="https://www.linkedin.com/in/alectremblay/">alectremblay</a>
   </span>
-  <a href="https://alectremblay.com/">alectremblay.com</a>
 </div>
 
 
@@ -106,8 +107,13 @@ ul {
 
 
 ## Experience & Professional Development
-{% include left-right.html tag='h3' left='PlayStation Studios Visual Arts' right='San Diego, CA' %}
-{% include left-right.html tag='p' left='Technical Artist Intern (Tools and Pipeline Developer)' right='May 2023 - Aug 2023 (4 months)' %}
+{% include left-right.html tag='h3' left='Cognizant' right='Remote' %}
+{% include left-right.html tag='p' left='Associate Consultant (Cognizant Workday Practice)' right='Jul 2025 - Present' %}
+
+- I just started but I'll let you know in a bit! (Very excited if you're curious!)
+
+{% include left-right.html tag='h3' left='Sony Interactive Entertainment' right='San Diego, CA' %}
+{% include left-right.html tag='p' left='Software Engineering Intern (Tools and Pipeline Developer)' right='May 2023 - Aug 2023' %}
 
 - Programmed pipeline and tools in Python for Autodesk Maya with PyQt/Pyside2 GUI.
 - Rewrote old tools to conform to modern coding standards and best practices.
@@ -115,28 +121,29 @@ ul {
 - Authored comprehensive user-facing documentation and tutorials on Confluence.
 
 {% include left-right.html tag='h3' left='Steamroller Technologies' right='Mount Dora, FL' %}
-{% include left-right.html tag='p' left='Pipeline Developer Intern' right='May 2022 - Aug 2022 (4 months)' %}
+{% include left-right.html tag='p' left='Pipeline Developer Intern' right='May 2022 - Aug 2022' %}
 
 - Worked on designing and developing a pipeline for Unity and Unreal Engine in Python, version control with Plastic SCM, CI/CD with Jenkins, Agile tasking and project management with Jira.
 - Developed a Jira task submission UI in Slack with Slack Bolt and Atlassian’s REST API. Developers can submit tasks through Slack that will be sent to their producer and created automatically with one button press to approve the task.
 
 {% include left-right.html tag='h3' left='College of Motion Picture Arts, Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022 (1 year 2 months)' %}
+{% include left-right.html tag='p' left='Virtual Production Research Intern' right='Mar 2021 - Apr 2022' %}
 
 - Developed a VR tour of Reims Cathedral for Oculus Quest in Unreal Engine from laser scans and reference photography - completed scan processing in Reality Capture, retopology and texture cleanup in Blender.
 - Helped start FSU's virtual production program, by constructing and configuring an LED volume for virtual production and real-time motion tracked RED camera. Operated Unreal during shoots, virtually moving lights, changing setups, troubleshooting, etc.
 
 {% include left-right.html tag='h3' left='FSU Game Development Club (DevLUp FSU)' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024 (10 months)' %}
+{% include left-right.html tag='p' left='President' right='Aug 2023 - May 2024' %}
 
 - Designed, organized and taught dozens of weekly hands-on workshops on programming, math, 3D art and animation.
 - Created a club website and grew attendance with blog posts, Discord and Instagram.
 - Hosted game jams (hackathons) and games industry recruiters from Epic Games and PlayStation. 
+- This experience is old and irrelevant enough that I should kick it off but I'm really proud of the work we did and I'm proud of my friends, so it stays.
 
 ## Education 
 
 {% include left-right.html tag='h3' left='Florida State University' right='Tallahassee, FL' %}
-{% include left-right.html tag='p' left='BS, Computer Science (3.5 GPA)' right='Aug 2020 - Jun 2024' %}
+{% include left-right.html tag='p' left='BS, Computer Science, Minor in Mathematics (3.5 GPA)' right='May 2024' %}
 
 
 ## Projects
@@ -158,17 +165,17 @@ ul {
 
 - Python Maya native UI (have built Maya Qt UI for work) allows users to set values for snowman ball sizes, "happiness" (mouth curve profile), size and number of coal buttons and create snowmen with simple materials.
 
-{% include left-right.html tag='a' left='["Latte Rorschach Test" Website](https://github.com/Dominic-Miller/Latte-Rorschach)' right='Python, Django, HTML/CSS, SQLite3' %}
+{% include left-right.html tag='a' left='["Latte Rorschach Test" Website](https://github.com/Dominic-Miller/Latte-Rorschach)' right='Python, Django, HTML5/CSS, SQLite3' %}
 
 - Developed a web application using Django in a team, designing and implementing the front-end with HTML/CSS.
 - Defined server-side data structures and admin interface configuration for user content.
 - Implemented database actions handling user submissions.
 
-{% include left-right.html tag='a' left='[My Personal Website (has more projects!)](https://alectremblay.com/)' right='Jeykyll, HTML/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
+{% include left-right.html tag='a' left='[My Personal Website](https://alectremblay.com/)' right='Jeykyll, HTML5/CSS, JavaScript, Github Pages, AWS Lambda, Github Actions' %}
 
 ## Skills, Languages, Tools
-**Skills:** Software Engineering • Pipeline Design and Development • 3D Modeling, Texturing, Shading, Animation, Lighting, Cinematics • Agile Producing • Documentation  
-**Languages:** Python (Django, PySide2, MatPlotLib, Unreal/Maya/Blender APIs) • MEL • C++/C • C# (Unity, .NET Maui with XAML) • Java • SQL  
-**Tools:** Unreal Engine (Materials, Blueprint, Sequencer, Niagara) • Blender (Hard Surface, Animation, Lighting/Materials, Simulation) • Jira/Confluence • ShotGrid • Photoshop • Autodesk Maya • Substance Painter • Unity • Godot • Git/Github • AWS (EC2, Lambda) • Jenkins • DaVinci Resolve • Reaper 
-
-> if you're an employer looking at this post-application for a role, my resume may have changed since it was sent to you
+**Skills:** Software Engineering • Pipeline Design and Development/DevOps • 3D Modeling • Agile Development • Documentation • Requirements Analysis/Design  
+**Languages:** : C++/C • C# (Unity, .NET Maui with XML) • Java • Python (Django, PySide2, MatPlotLib) • JSON • HTML5 • Perl • SQL  
+**Tools:** Unix/Linux (Kernel Modules, Shell Scripting) • Unreal Engine • Blender • Jira/Confluence • Photoshop • Autodesk Maya • Unity •
+Godot • Git/Github • AWS (EC2, Lambda) • Jenkins  
+**Hobbies & Interests:** Guitar/Music Production/Songwriting • Espresso/Latte Art • Trail Running • Film/Photography • Cooking/[Pizza](https://alectremblay.com/pizza) • [Racecars](https://alectremblay.com/rx8)

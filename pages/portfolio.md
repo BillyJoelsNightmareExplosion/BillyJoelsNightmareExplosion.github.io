@@ -5,8 +5,6 @@
 layout: page
 permalink: /portfolio
 categories: project
-redirect_from:
-  - / 
 ---
 
 

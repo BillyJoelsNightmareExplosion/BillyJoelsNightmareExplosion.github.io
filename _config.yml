@@ -21,18 +21,19 @@
 title: Alec Tremblay's Personal Website
 email: tremblayalec14@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Alec doesn't really need one of these dust-cover biographies,
-  but what else is supposed to go here? Alec likes to tell stories, make pictures, songs,
-  and the best garlic knots you'll ever get for free. He studied Computer Science at Florida State
-  University and will have a new favorite thing in approximately five minutes and can't wait to
-  tell you about it.
+  Alec is updating this after leaving it be for a long while; he'll probably build a new website 
+  soon and has long since forgotten what the point of writing in third-person was. He's liked 
+  making movies and video games and songs for some time now, through he's only kept up with making the 
+  songs. More recently he's concerned with trail running and finding the perfect white linen shirt. 
+  He's also on the prowl for the best frying pan, and presently believes he will come to regret 
+  that specific phrasing. His heart aches for a world of hand written letters, yet he turns up his 
+  nose at communicating with anything but slack or discord. He's behind on the novel he's reading. 
+  If you see him, do ask him to get back on it for me, would you be so kind?
   <br><br>
-  When he's not writing in third person, he's cooking with his mom on FaceTime, staring at 
-  objects and thinking about how he'd make them in Blender, and taking longer to get dressed than
-  you'd expect. And writing in first person.
+  He studied computer science at Florida State University and is based out of nowhere in particular (yet).
   <br><br>
-  If you're here to evaluate my work and experience, take a look at my
-  <a href="/resume">resume</a> and <a href="/portfolio">portfolio</a>.
+  If you're here to evaluate my work experience, take a look at my <a href="/resume">resume</a>, or 
+  to gawk at my various old art projects, my <a href="/portfolio">portfolio</a>.
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://alectremblay.com" # the base hostname & protocol for your site, e.g. http://example.com
 

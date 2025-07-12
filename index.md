@@ -4,6 +4,8 @@
 
 layout: home
 permalink: /home
+redirect_from:
+  - / 
 ---
 
 
